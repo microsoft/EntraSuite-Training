@@ -1,16 +1,56 @@
-# Project
+# Welcome to the Microsoft Suite training Hub
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+> Learn how the Microsoft Entra Suite simplifies your Zero Trust security model with a complete cloud-based solution for workforce access
 
-As the maintainer of this project, please make a few updates:
+## 🚀 Getting Started
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+ **Explore Documentation**: Dive into our extensive documentation to understand the core concepts of Entra Suite
 
-## Contributing
+### Microsoft Suite products documentation
+
+[Entra Suite Announcement](https://techcommunity.microsoft.com/t5/microsoft-entra-blog/microsoft-entra-suite-now-generally-available/ba-p/2520427)
+
+[Microsoft Entra Internet Access](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-internet-access)
+
+[Microsoft Entra Identity Governance](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id-governance)
+
+[Microsoft Entra ID Protection](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id-protection)
+
+[Microsoft Entra Verified ID](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-verified-id)
+
+## 🪙 Licensing
+
+[Microsoft Entra plans and pricing](https://www.microsoft.com/en-us/security/business/microsoft-entra-pricing)
+
+## 📦 POC in a Box
+
+Explore our real-life scenarios that articulate the value of Microsoft Entra Suite and how its capabilities work together.
+
+### POC Overview
+
+- [Entra Suite Getting Started](TBD)
+- [Entra Suite POC Overview](TBD)
+
+### Microsoft Entra Suite Scenarios
+
+- [Enhanced workforce and guest user lifecycle](TBD)
+- [Secure and govern access to all apps and resources](TBD)
+- [Govern Internet Access based on business needs](TBD)
+
+## 🤝 Service Partners resources
+
+Discover our resources to guide you through the seamless integration of products within the Entra Suite
+
+### Clickthrough Demos
+
+- [Entra Suite Customer flyer](TBD)
+- [Enhanced workforce and guest user lifecycle](https://aka.ms/EntraSuiteDemo2)
+- [Secure and govern access to all apps and resources](https://aka.ms/EntraSuiteDemo1)
+- [Govern Internet Access based on business needs](https://aka.ms/EntraSuiteDemo3)
+
+
+## 🛠️ Contribute and Collaborate
+
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
