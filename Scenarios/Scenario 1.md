@@ -58,12 +58,12 @@ Follow these prerequisite steps to create an Entitlement management catalog for 
 2.	Go to **Identity governance > Entitlement management > Catalogs**.
 3.	Select **+New catalog**.
 
-	![image 4](../images/VID-04)
+	![image 4](../images/VID-04.png)
 
 4.	Enter a unique name for the catalog and provide a description. Requestors see this information in an access package's details.
 5.	To create access packages in this catalog for internal users, select **Enabled for external users > No**.
 
-	![image 5](../images/VID-05)
+	![image 5](../images/VID-05.png)
 
 6.	On **Catalog**, open the catalog to which you want to add resources. Select **Resources > +Add resources**.
 7.	Select **Type**, then **Groups and Teams, Applications**, or **SharePoint sites**.
@@ -80,7 +80,7 @@ Follow these steps to create an access package in entitlement management with Ve
 5.	For Resource roles, select a resource type (for example: Groups and Teams, Applications, SharePoint sites). Select one or more resources.
 6.	In **Role**, select the role to which you want users assigned for each resource. 
 
-    ![image 6](../images/VID-06)
+    ![image 6](../images/VID-06.png)
 
 7.	For **Requests**, select **For users in your directory**.
 8.	In **Select users and groups**, select **For Users in your directory**. Select **+ Add users and groups**. Select an existing group entitled to request the access package.
