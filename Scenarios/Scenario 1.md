@@ -92,7 +92,73 @@ Follow these steps to create an access package in entitlement management with Ve
 14.	In **Access Reviews**, select **Yes**.
 15.	In **Starting on**, select the current date. Set **Review Frequency** to **Quarterly**. Set **Duration (in Days)** to **25**.
 
-	1.  
+## Access package for guests (B2B) 
+Follow these steps to create an access package in entitlement management with Verified ID for guests (B2B).
+1.	Sign in to the Microsoft Entra admin center with at least an Identity Governance Administrator role.
+2.	Go to **Identity governance > Entitlement management > Access package**.
+3.	Select **New access package**.
+4.	For **Basics**, give the access package a name (such as Finance Apps for Remote Users). Specify the catalog that you previously created.
+5.	For **Resource roles**, select a resource type (for example: Groups and Teams, Applications, SharePoint sites). Select one or more resources.
+6.	In **Role**, select the role to which you want users assigned for each resource. 
+	
+	![image 7](../images/VID-07.png)
+
+7.	For **Requests**, select **For users not in your directory**.
+8.	Select **Specific connected organizations**. To select from a list of connected organizations that you previously added, select **Add directory**.
+9.	Enter the name or domain name to search for a previously connected organization.
+10.	Scroll to **Required Verified Ids**.
+11.	Select **+ Add issuer**. Select an issuer from the Microsoft Entra Verified ID network. Ensure that you select an issuer from an existing verified identity in the guest wallet.
+12.	**Optiona**l: In **Approval**, specify whether approval is required when users request the access package. 
+13.	**Optional**: In **Requestor information**, select **Questions**. Enter a question that you want to ask the requestor. This question is known as the display string. To add localization options, select **Add localization**.
+14.	For **Lifecycle**, specify when a user's assignment to the access package expires. Specify whether users can extend their assignments. For **Expiration**, set **Access package assignments expiration** to **On date, Number of days, Number of hours**, or **Never**.
+15.	In **Access Reviews**, select **Yes**.
+16.	In **Starting on**, select the current date. Set **Review Frequency** to **Quarterly**. Set **Duration (in Days)** to **25**.
+17.	Select **Specific reviewers**. Select **Self Review**.
+	
+	![image 8](../images/VID-08.png)
+
+## Create sign-in risk-based CA policy
+
+1.	Sign in to the Microsoft Entra admin center with at least a Conditional Access (CA) Administrator role.
+2.	Go to **Protection > Conditional Access**.
+3.	Select **New policy**.
+4.	Enter a **policy name** such as Protect applications for remote high-risk sign-in users.
+5.	For **Assignments**, select **Users**.
+6.	For **Include**, select a **remote user group** or **select all users**.
+7.	For **Exclude **, select **Users and groups**. Select your organization's emergency access or break-glass accounts.
+8.	Select **Done**.
+9.	For **Cloud apps or actions> Include**, select the application(s) to target this policy.
+10.	For **Conditions > Sign-in risk**, set **Configure** to **Yes**. For **Select the sign-in risk level this policy will apply to**, select **High and Medium**.
+11.	Select **Done**.
+12.	For **Access controls > Grant**.
+13.	Select **Grant access > Require multifactor authentication**.
+14.	For **Session**, select **Sign-in frequency**. Select **Every time**.
+15.	Confirm settings. Select **Enable policy**
+	
+	![image 9](../images/VID-09.png) 
+
+## Request access package
+After you configure an access package with a Verified ID requirement, end-users who are within the scope of the policy can request access in their **My Access** portal. While reviewing requests for approval, approvers can see the claims of the verified credentials that requestors present.
+1.	As a remote user or guest, sign in to **myaccess.microsoft.com*.
+2.	Search for the access package that you previously created (such as Finance Apps for Remote Users). You can browse the listed packages or use the search bar. Select **Request**.
+3.	The system displays an information banner with a message such as, To request access to this access package you need to present your Verifiable Credentials. Select **Request Access**. Scan the QR Code with your phone to launch Microsoft Authenticator. Share your credentials.
+	
+	![image 10](../images/VID-10.png)
+
+5.	After you share your credentials, continue with the approval workflow.
+6.	**Optional**: Simulate user risk by following these instructions: [Simulating risk detections in Microsoft Entra ID Protection](https://learn.microsoft.com/en-us/entra/id-protection/howto-identity-protection-simulate-risk). You may need to try multiple times to raise the user risk to medium or high.
+7.	Try accessing the application that you previously created for the scenario to confirm blocked access. You may need to wait up to one hour for block enforcement.
+8.	Validate that access is blocked by the Conditional Access (CA) policy that you created earlier using sign-in logs. Open non-interactive sign in logs from the ZTNA Network Access Client – Private application. View logs from the Private Access application name that you previously created as the **Resource name**.
+
+ 
+ 
+ ## Resources 
+* [Microsoft Entra Verified ID | Microsoft Security](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-verified-id) 
+* [Plan your Microsoft Entra Verified ID verification solution](https://learn.microsoft.com/en-us/entra/verified-id/plan-verification-solution) 
+* [What is Microsoft Entra ID Protection?](https://learn.microsoft.com/en-us/entra/id-protection/overview-identity-protection) 
+* [Microsoft Entra ID Governance](https://learn.microsoft.com/en-us/entra/id-governance/identity-governance-overview)
+* [Plan a Microsoft Entra Conditional Access deployment](https://learn.microsoft.com/en-us/entra/identity/conditional-access/plan-conditional-access)
+
 
 
 
