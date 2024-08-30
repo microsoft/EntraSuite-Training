@@ -33,10 +33,14 @@ For this scenario, complete these prerequisite steps to configure Microsoft Entr
 
 3.	If you have multiple domains registered for your Microsoft Entra tenant, select the one that you would like to use for Verified ID.
 	
-4.	After the setup process is complete, you see a default workplace credential available to edit and offer to employees of your tenant on their **My Account**  page. 
+4.	After the setup process is complete, you see a default workplace credential available to edit and offer to employees of your tenant on their **My Account** page.
+	
 	![imagen 1](../images/VID-01.png)
+	
 5.	Sign in to the test user’s **My Account** with their Microsoft Entra credentials. Select **Get my Verified ID** to issue a verified workplace credential
+	
 	![imagen 2](../images/VID-02.png)
+
 	
 ## Add trusted external organization (B2B)
 Follow these prerequisite steps to add a trusted external organization (B2B) for the scenario.
