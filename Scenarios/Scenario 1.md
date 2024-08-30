@@ -2,7 +2,7 @@
 ### Enhanced workforce and guest lifecycle
 
 
-Introduction
+#### Introduction
 In this guide, we describe how to configure Microsoft Entra Suite products for a scenario in which the fictional organization, Contoso, wants to hire new remote employees and provide them with secure and seamless access to necessary apps and resources. 
 They want to invite and collaborate with external users (such as partners, vendors, or customers) and provide them with access to relevant apps and resources. 
 
@@ -34,7 +34,15 @@ For this scenario, complete these prerequisite steps to configure Microsoft Entr
 3.	If you have multiple domains registered for your Microsoft Entra tenant, select the one that you would like to use for Verified ID.
 	
 4.	After the setup process is complete, you see a default workplace credential available to edit and offer to employees of your tenant on their **My Account**  page. 
-	(../images/VID-01.png)
+	![imagen 1](../images/VID-01.png)
 5.	Sign in to the test user’s **My Account** with their Microsoft Entra credentials. Select **Get my Verified ID** to issue a verified workplace credential
-	(../images/VID-02.png)
+	![imagen 2](../images/VID-02.png)
 	
+## Add trusted external organization (B2B)
+Follow these prerequisite steps to add a trusted external organization (B2B) for the scenario.
+1.	Sign in to the Microsoft Entra admin center with at least a Security Administrator role.
+2.	Go to **Identity > External Identities > Cross-tenant access settings**. Select **Organizational settings**
+3.	Select **Add organization**.
+4.	Enter the organization’s full domain name (or tenant ID).
+5.	Select the organization in the search results. Select **Add**.
+6.	Confirm the new organization (that inherits its access settings from default settings) in **Organizational settings**. 
