@@ -1,5 +1,5 @@
-### Microsoft Entra Suite – Scenario 1
-Enhanced workforce and guest lifecycle
+## Microsoft Entra Suite – Scenario 1
+### Enhanced workforce and guest lifecycle
 
 
 Introduction
@@ -24,14 +24,15 @@ To successfully deploy and test the solution, configure the prerequisites that w
 Configure Microsoft Entra Verified ID
 For this scenario, complete these prerequisite steps to configure Microsoft Entra Verified ID with Quick setup (Preview):
 
-1.	Register a custom domain (required for Quick setup) by following the steps in the Add your custom domain article.
+1.	Register a custom domain (required for Quick setup) by following the steps in the [Add your custom domain](https://learn.microsoft.com/en-us/entra/fundamentals/add-custom-domain) article.
 2.	Sign in to the Microsoft Entra admin center with at least a Global Administrator role.
 	
-* Select Verified ID.
-* Select Setup.
-* Select Get started.
+* Select **Verified ID**.
+* Select **Setup**.
+* Select **Get started**
 
 3.	If you have multiple domains registered for your Microsoft Entra tenant, select the one that you would like to use for Verified ID.
 	
-4.	After the setup process is complete, you see a default workplace credential available to edit and offer to employees of your tenant on their **My Account**  page.
-	(../images/VID-01.png)
+4.	After the setup process is complete, you see a default workplace credential available to edit and offer to employees of your tenant on their **My Account**  page. (../images/VID-01.png) 
+5.	Sign in to the test user’s **My Account** with their Microsoft Entra credentials. Select **Get my Verified ID** to issue a verified workplace credential  (../images/VID-01.png) 
+	
