@@ -1,5 +1,5 @@
 ## Microsoft Entra Suite – Scenario 1
-### Enhanced workforce and guest lifecycle
+### Enhanced workforce and guest lifecycle (Secure and governed access to all applications and resources)
 
 
 #### Introduction
