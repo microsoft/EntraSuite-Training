@@ -49,4 +49,57 @@ Follow these prerequisite steps to add a trusted external organization (B2B) for
 3.	Select **Add organization**.
 4.	Enter the organization’s full domain name (or tenant ID).
 5.	Select the organization in the search results. Select **Add**.
-6.	Confirm the new organization (that inherits its access settings from default settings) in **Organizational settings**. 
+6.	Confirm the new organization (that inherits its access settings from default settings) in **Organizational settings**.
+	![image 3] (../images/VID-03.png)
+
+## Create catalog
+Follow these prerequisite steps to create an Entitlement management catalog for the scenario.
+1.	Sign in to the Microsoft Entra admin center with at least an Identity Governance Administrator role.
+2.	Go to **Identity governance > Entitlement management > Catalogs**.
+3.	Select **+New catalog**.
+
+	![image 4](../images/VID-04)
+
+4.	Enter a unique name for the catalog and provide a description. Requestors see this information in an access package's details.
+5.	To create access packages in this catalog for internal users, select **Enabled for external users > No**.
+
+	![image 5](../images/VID-05)
+
+6.	On **Catalog**, open the catalog to which you want to add resources. Select **Resources > +Add resources**.
+7.	Select **Type**, then **Groups and Teams, Applications**, or **SharePoint sites**.
+8.	Select one or more resources of the type that you want to add to the catalog. Select **Add**.
+
+## Create access packages
+To successfully deploy and test the solution, configure the access packages that we describe in this section.
+## Access package for remote users (internal)
+Follow these steps to create an access package in entitlement management with Verified ID for remote (internal) users.
+1.	Sign in to the Microsoft Entra admin center with at least an Identity Governance Administrator role.
+2.	Go to **Identity governance > Entitlement management > Access package**.
+3.	Select **New access package**.
+4.	For **Basics**, give the access package a name (such as Finance Apps for Remote Users). Specify the catalog that you previously created.
+5.	For Resource roles, select a resource type (for example: Groups and Teams, Applications, SharePoint sites). Select one or more resources.
+6.	In **Role**, select the role to which you want users assigned for each resource. 
+
+    ![image 6](../images/VID-06)
+
+7.	For **Requests**, select **For users in your directory**.
+8.	In **Select users and groups**, select **For Users in your directory**. Select **+ Add users and groups**. Select an existing group entitled to request the access package.
+9.	Scroll to **Required Verified Ids**.
+10.	Select **+ Add issuer**. Select an issuer from the Microsoft Entra Verified ID network. Ensure that you select an issuer from an existing verified identity in the guest wallet.
+11.	**Optional:** In **Approval**, specify whether approval is required when users request the access package. 
+12.	**Optional:** In **Requestor information**, select **Questions**. Enter a question that you want to ask the requestor. This question is known as the display string. To **add localization** options, select Add localization.
+13.	For **Lifecycle**, specify when a user's assignment to the access package expires. Specify whether users can extend their assignments. For **Expiration**, set **Access package assignments** expiration to **On date, Number of days, Number of hours, or Never**.
+14.	In **Access Reviews**, select **Yes**.
+15.	In **Starting on**, select the current date. Set **Review Frequency** to **Quarterly**. Set **Duration (in Days)** to **25**.
+
+	1.  
+
+
+
+ 
+
+
+
+
+
+
