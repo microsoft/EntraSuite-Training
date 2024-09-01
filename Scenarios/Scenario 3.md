@@ -87,14 +87,17 @@ In this section, we block access to inappropriate sites for all users in the org
 
 Create a web filtering policy
 1.	Sign in to the Microsoft Entra admin center. Go to **Global Secure Access** > Secure > Web content filtering policies > Create policy > [Configure Global Secure Access content filtering](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-configure-web-content-filtering).
+ 
     ![imagen 4](../images/IA-04.png)
 2.	On **Create a web content filtering policy > Basics**, complete these fields:
     * **Name:** Baseline Internet Access Block Rule
     * **Description:** Add a description
     * **Action:** Block
+    
     ![imagen 5](../images/IA-05.png)
 3.	Select **Next**.
 4.	On **Create a web content filtering policy > Policy Rules**, select **Add Rule**.
+
     ![imagen 6](../images/IA-06.png)
 
 
