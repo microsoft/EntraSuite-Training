@@ -1,5 +1,5 @@
 ## Microsoft Entra Suite – Scenario 1
-### Enhanced workforce and guest lifecycle (Secure and governed access to all applications and resources)
+## Enhanced workforce and guest lifecycle (Secure and governed access to all applications and resources)
 
 
 ## Introduction
@@ -125,7 +125,7 @@ Follow these steps to create an access package in entitlement management with Ve
 4.	Enter a **policy name** such as Protect applications for remote high-risk sign-in users.
 5.	For **Assignments**, select **Users**.
 6.	For **Include**, select a **remote user group** or **select all users**.
-7.	For **Exclude **, select **Users and groups**. Select your organization's emergency access or break-glass accounts.
+7.	For **Exclude**, select **Users and groups**. Select your organization's emergency access or break-glass accounts.
 8.	Select **Done**.
 9.	For **Cloud apps or actions> Include**, select the application(s) to target this policy.
 10.	For **Conditions > Sign-in risk**, set **Configure** to **Yes**. For **Select the sign-in risk level this policy will apply to**, select **High and Medium**.
