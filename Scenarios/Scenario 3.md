@@ -325,6 +325,65 @@ In this section, we create access packages that allow users to request access to
     * **Lifecycle:** Set Number of hours to 8 hours
 
 
+## Test user access
+In this section, we validate that the user can’t access sites that the baseline profile blocks.
+
+1.	Sign in to the device where you have installed the Global Secure Access client.
+2.	In a browser, go to sites that the baseline profile blocks and verify blocked access. For example:
+    * hackthissite.org is a free, safe, and legal training ground for security professionals to test and expand ethical hacking skills. This site is classified as Hacking.
+    * YouTube.com is a free video sharing platform. This site is classified as Social Networking.
+
+    ![imagen 24](../images/IA-24.png)
+
+## Request social networking access
+In this section, we validate that a Marketing department user can request access to social networking sites.
+1.	Sign in to the device where you have installed the Global Secure Access client with a user that is a member of the Marketing team (or a user that has authorization to request access to the example Internet Access – Allow Social Networking sites access package).
+2.	In a browser, validate blocked access to a site in the Social Networking category that the baseline security profile blocks. For example, try accessing youtube.com.
+
+    ![imagen 25](../images/IA-25.png)
+
+3.	Browse to https://myaccess.microsoft.com. Select **Access packages**. Select **Request** for the *Internet Access – Allow Social Networking sites* access package. 
+
+    ![imagen 26](../images/IA-26.png)
+
+4.	Select **Continue**. Select **Request**.
+5.	If you configured approval for the access package, sign in as an approver. Browse to https://myaccess.microsoft.com. Approve the request.
+6.	Sign in as a Marketing department user. Browse to https://myaccess.microsoft.com. Select **Request history**. Validate your request status to Internet Access – Allow Social Networking sites is Delivered.
+7.	New settings may take a few minutes to apply. To speed up the process, right-click the Global Secure Access icon in the system tray. Select **Log in as a different user**. Sign in again.
+8.	Try accessing sites in the social networking category that the baseline security profile blocks. Validate that you can successfully browse them. For example, try browsing youtube.com.
+
+    ![imagen 27](../images/IA-27.png)
+
+
+## Request hacking site access
+In this section, we validate that a SOC team user can request access to hacking sites.
+
+1.	Sign in to the device where you have installed the Global Secure Access client with a user that is a member of the SOC team (or a user that has authorization to request access to the example Internet Access – Allow Hacking sites access package).
+2.	In a browser, validate blocked access to a site in the hacking category that the baseline security profile blocks. For example, hackthissite.org.
+   
+    ![imagen 28](../images/IA-28.png)
+
+3.	Browse to https://myaccess.microsoft.com. Select **Access packages**. Select **Request** for the *Internet Access – Allow Hacking sites* access package.
+4.	Select **Continue**. Select **Request**.
+5.	If you configured approval for the access package, sign in as an approver. Browse to https://myaccess.microsoft.com. Approve the request.
+6.	Sign in as a SOC team user. Browse to https://myaccess.microsoft.com. Select **Request history**. Validate your request status to Internet Access – Allow Hacking sites is **Delivered**.
+7.	New settings may take a few minutes to apply. To speed up the process, right-click the Global Secure Access icon in the system tray. Select **Log in as a different user**. Sign in again.
+8.	Try accessing sites in the hacking category that the baseline security profile blocks. Validate that you can successfully browse them. For example, try browsing hackthissite.org.
+
+    ![imagen 29](../images/IA-29.png)
+
+9.	If you configured hacking site access with **Lifecycle > Number of hours** set to 8 in previous steps, after eight hours elapses, verify blocked access to hacking sites.
+
+## Resources
+* [Learn about Microsoft Entra ID Governance](https://learn.microsoft.com/en-us/entra/id-governance/identity-governance-overview)
+* [Plan a Microsoft Entra Conditional Access deployment](https://learn.microsoft.com/en-us/entra/identity/conditional-access/plan-conditional-access)
+* [Learn about Microsoft Entra Internet Access](https://learn.microsoft.com/en-us/entra/global-secure-access/concept-internet-access)
+* [Learn about the Global Secure Access clients for Microsoft Entra Private Access and Microsoft Entra Internet Access](https://learn.microsoft.com/en-us/entra/global-secure-access/concept-clients)
+
+
+
+
+
 
 
 
