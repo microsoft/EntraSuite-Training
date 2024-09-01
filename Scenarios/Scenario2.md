@@ -76,7 +76,7 @@ In this section, we activate Global Secure Access through the Microsoft Entra ad
     * The Microsoft 365 access profile is for Microsoft Entra Internet Access for Microsoft 365. 
     * The Private access profile is for Microsoft Entra Private Access. 
     * The Internet access profile is for Microsoft Entra Internet Access. Microsoft's Security Service Edge solution only captures traffic on client devices with Global Secure Access Client installation.
-    
+        
  ![imagen 3](../images/RemoteA-03.png)
 
 ## Install Global Secure Access client
@@ -107,7 +107,7 @@ In this guide, we use a security group to assign permissions to the Private Acce
 1.	In the Microsoft Entra Portal, create a new cloud-only security group.
 2.	Add test user as a member.
 
- 1. ## Determine private resource to publish
+## Determine private resource to publish
 In this guide, we use file share services as a sample resource. You can use any private application or resource. You need to know which ports and protocols the application uses to publish it with Microsoft Entra Private Access.
 
 Identify a server with a file share to publish and note its IP address. File share services use port 445/TCP.
