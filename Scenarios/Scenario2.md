@@ -70,15 +70,13 @@ In this section, we activate Global Secure Access through the Microsoft Entra ad
 
 1.	Sign in to the Microsoft Entra admin center with at least a Global Administrator role.
 2.	Go to **Global Secure Access> Get started > Activate Global Secure Access in your tenant**. Select **Activate** to enable SSE features.
-
- ![imagen 2](../images/RemoteA-02.png)
+    ![imagen 2](../images/RemoteA-02.png)
 
 3.	Go to **Global Secure Access> Connect > Traffic forwarding**. Toggle on Private access profile. Traffic forwarding enables you to configure the type of network traffic to tunnel through Microsoft’s Security Service Edge Solution services. Set up [traffic forwarding profiles](https://learn.microsoft.com/en-us/entra/global-secure-access/concept-traffic-forwarding) to manage traffic types. 
     * The Microsoft 365 access profile is for Microsoft Entra Internet Access for Microsoft 365. 
     * The Private access profile is for Microsoft Entra Private Access. 
     * The Internet access profile is for Microsoft Entra Internet Access. Microsoft's Security Service Edge solution only captures traffic on client devices with Global Secure Access Client installation.
-        
- ![imagen 3](../images/RemoteA-03.png)
+    ![imagen 3](../images/RemoteA-03.png)
 
 ## Install Global Secure Access client
 
@@ -88,9 +86,7 @@ Microsoft Entra Internet Access for Microsoft 365 and Microsoft Entra Private Ac
 2.	Sign in to the Windows device with a Microsoft Entra user role with local admin privileges.
 3.	Sign in to the Microsoft Entra admin center with at least a Global Administrator role.
 4.	Go to **Global Secure Access> Connect > Client Download**. Select Download client. Complete the installation.
-
- ![imagen 4](../images/RemoteA-04.png)
-
+   ![imagen 4](../images/RemoteA-04.png)
 5.	In the Window taskbar, the Global Secure Access Client first appears as disconnected. After a few seconds, when prompted for credentials, enter test user's credentials.
 6.	In the Window taskbar, hover over the Global Secure Access Client icon and verify **Connected** status.
 
