@@ -58,12 +58,47 @@ In this section, we activate Global Secure Access through the Microsoft Entra ad
 1.	Sign in to the Microsoft Entra admin center with at least a Global Administrator role.
 2.	Go to **Global Secure Access > Get started > Activate Global Secure Access in your tenant**. Select **Activate** to enable SSE features.
     ![imagen 1](../images/IA-01.png)
-3.	Go to **Global Secure Access > Connect > Traffic forwarding **. Toggle on Private access profile. Traffic forwarding enables you to configure the type of network traffic to tunnel through Microsoft’s Security Service Edge Solution services. Set up [traffic forwarding profiles](https://learn.microsoft.com/en-us/entra/global-secure-access/concept-traffic-forwarding) to manage traffic types. 
+3.	Go to **Global Secure Access > Connect > Traffic forwarding**. Toggle on Private access profile. Traffic forwarding enables you to configure the type of network traffic to tunnel through Microsoft’s Security Service Edge Solution services. Set up [traffic forwarding profiles](https://learn.microsoft.com/en-us/entra/global-secure-access/concept-traffic-forwarding) to manage traffic types. 
     * The **Microsoft access profile** is for Microsoft 365 access. 
     * The **Private access profile** is for Microsoft Entra Private Access. 
     * The **Internet access profile** is for Microsoft Entra Internet Access. Microsoft's Security Service Edge solution only captures traffic on client devices with Global Secure Access Client installation.
     * 
     ![imagen 2](../images/IA-02.png)
+
+## Install Global Secure Access client
+Microsoft Entra Internet Access for Microsoft 365 and Microsoft Entra Private Access use the Global Secure Access client on Windows devices. This client acquires and forwards network traffic to Microsoft's Security Service Edge solution. Perform these installation and configuration steps:
+
+1.	Ensure that the Windows device is Microsoft Entra joined or hybrid joined.
+2.	Sign in to the Windows device with a Microsoft Entra user role with local admin privileges.
+3.	Sign in to the Microsoft Entra admin center with at least a Global Administrator role.
+4.	Go to **Global Secure Access** > Connect > Client Download. Select Download client. Complete the installation.
+    ![imagen 3](../images/IA-03.png)
+
+5.	In the Window taskbar, the Global Secure Access Client first appears as disconnected. After a few seconds, when prompted for credentials, enter test user's credentials.
+6.	In the Window taskbar, hover over the Global Secure Access Client icon and verify **Connected** status.
+
+## Create security groups
+In this guide, we use two security groups to assign security profiles using Conditional Access (CA) policies. In the Microsoft Entra Portal, create security groups with these names:
+1.	Internet Access – Allow Social Networking sites
+2.	Internet Access – Allow Hacking sites
+Don’t add any members to these groups. Later in this guide, we configure Identity Governance to add members on request.
+
+## Block access with baseline profile
+In this section, we block access to inappropriate sites for all users in the organization with a baseline profile.
+
+Create a web filtering policy
+1.	Sign in to the Microsoft Entra admin center. Go to **Global Secure Access** > Secure > Web content filtering policies > Create policy > [Configure Global Secure Access content filtering](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-configure-web-content-filtering).
+    ![imagen 4](../images/IA-04.png)
+2.	On **Create a web content filtering policy > Basics**, complete these fields:
+    * **Name:** Baseline Internet Access Block Rule
+    * **Description:** Add a description
+    * **Action:** Block
+    ![imagen 5](../images/IA-05.png)
+3.	Select **Next**.
+4.	On **Create a web content filtering policy > Policy Rules**, select **Add Rule**.
+    ![imagen 6](../images/IA-06.png)
+
+
 
 
 
