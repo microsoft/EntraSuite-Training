@@ -62,7 +62,6 @@ In this section, we activate Global Secure Access through the Microsoft Entra ad
     * The **Microsoft access profile** is for Microsoft 365 access. 
     * The **Private access profile** is for Microsoft Entra Private Access. 
     * The **Internet access profile** is for Microsoft Entra Internet Access. Microsoft's Security Service Edge solution only captures traffic on client devices with Global Secure Access Client installation.
-    * 
     ![imagen 2](../images/IA-02.png)
 
 ## Install Global Secure Access client
