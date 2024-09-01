@@ -1,4 +1,5 @@
 ## Microsoft Entra Suite – Scenario 2
+
 ## Modernize remote access (Secure and governed access to all applications and resources)
 
 ## Introduction
