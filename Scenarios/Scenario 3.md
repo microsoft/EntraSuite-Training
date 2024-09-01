@@ -142,7 +142,9 @@ Create a web filtering policy
 In this section, we create a security profile that allows access to social networking sites for users that request it.
 ### Create web filtering policy
 1.	Sign in to the Microsoft Entra admin center. Go to **Global Secure Access > Secure > Web content filtering policies > Create policy >** [Configure Global Secure Access content filtering](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-configure-web-content-filtering).
+
     ![imagen 10](../images/IA-10.png)
+
 2.	On **Create a web content filtering policy > Basics**, complete these fields:
     * **Name:** Allow Social Networking sites
     * **Description:** Add a description
@@ -157,7 +159,9 @@ In this section, we create a security profile that allows access to social netwo
 7.	Select **Add**.
 8.	On **Create a web content filtering policy > Policy Rules**, select **Next**.
 9.	On **Create a web content filtering policy > Review**, confirm your policy configuration.
+
     ![imagen 11](../images/IA-11.png)
+
 10.	Select **Create policy**.
 11.	To confirm policy creation, view it in **Manage web content filtering policies**.
 
