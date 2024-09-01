@@ -118,7 +118,7 @@ Microsoft Entra Private Access supports transmission control protocol (TCP) appl
 1.	From the connector server, verify that you can access a file share on the file server.
 2.	Sign in to the Microsoft Entra admin center. Go to **Global Secure Access> Applications > Enterprise applications > + New Application**.
     ![imagen 6](../images/RemoteA-06.png)
-3.	Enter a **Name** (such as *FileServer1**). Select the default connector group. Select **+Add application segment**. Enter the **IP address** of the application server and port 445.
+3.	Enter a **Name** (such as *FileServer1*). Select the default connector group. Select **+Add application segment**. Enter the **IP address** of the application server and port 445.
     ![imagen 7](../images/RemoteA-07.png)
 4.	Select **Apply > Save**. Verify that the application is in **Enterprise applications**.
 5.	Go to **Identity > Applications > Enterprise applications**. Select the new application.
