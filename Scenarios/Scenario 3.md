@@ -164,6 +164,104 @@ In this section, we create a security profile that allows access to social netwo
 
 10.	Select **Create policy**.
 11.	To confirm policy creation, view it in **Manage web content filtering policies**.
+## Create security policy profile
+1.	Sign in to the Microsoft Entra admin center. Go to **Global Secure Access> Secure > Security profiles**. Select **Create profile**.
+     ![imagen 12](../images/IA-12.png)
+
+2.	On **Create a profile > Basics**, complete these fields:
+    * **Profile name:** Allow Social Networking sites
+    * **Description:** Add a description
+    * **State:** Enabled
+    * **Priority:** 1000
+3.	Select **Next**.
+4.	On **Create a profile > Link policies**, select **Link a policy**.
+5.	Select **Existing policy**.
+6.	In **Link a policy**, complete these fields:
+    * **Policy name:** Allow Social Networking
+    * **Priority:** 1000
+    * **State:** Enabled
+7.	Select **Add**.
+8.	On **Create a profile > Link policies**, confirm **Allow Social Networking** is listed.
+9.	Select **Next**.
+10.	On **Create a profile > Review**, confirm your profile configuration.
+    ![imagen 13](../images/IA-13.png)
+
+11.	Select **Create a profile**.
+    ![imagen 14](../images/IA-14.png)
+
+## Create CA policy
+In this section, we create a Conditional Access (CA) policy that enforces the **Allow Social Networking** security profile for users that have requested access.
+
+1.	Sign in to the Microsoft Entra admin center. Go to **Protection > Conditional Access**. Select **Create new policy**.
+2.	In **New Conditional Access Policy**, complete these fields:
+    * **Name:** Internet Access – Allow Social Networking sites
+    * **Users or workload identities:** Specific users included
+    * **What does this policy apply to?** Users and groups
+    * **Include > Select users and groups >** Select **Users and groups**
+3.	Select your test group (such as *Internet Access – Allow Social Networking sites*). Select **Select**.
+4.	Target resources
+    * **Select what this policy applies to > Global Secure Access**
+    * **Select the traffic profiles this policy applies to > Internet traffic**
+5.	Leave **Grant** at its default settings to grant access so that your defined security profile defines block functionality.
+6.	In **Session**, select Use **Global Secure Access security profile**.
+7.	Select **Allow Social Networking sites**.
+8.	In **Conditional Access Overview > Enable policy**, select **On**. Select **Create**. 
+
+## Allow access to hacking sites
+In this section, we create a new security profile that allows access to hacking sites for users that request it. Users receive access for eight hours after which access is automatically removed.
+
+### Create web filtering policy
+1.	Sign in to the Microsoft Entra admin center. Go to **Global Secure Access > Secure > Web content filtering policies > Create policy >** [Configure Global Secure Access content filtering](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-configure-web-content-filtering).
+    ![imagen 15](../images/IA-15.png)
+2.	On **Create a web content filtering policy > Basics**, complete these fields:
+    * **Name:** Allow Hacking sites
+    * **Description:** Add a description
+    * **Action:** Allow
+3.	Select **Next**.
+4.	On **Create a web content filtering policy > Policy Rules**, select **Add Rule**.
+5.	In **Add Rule**, complete these fields:
+    * **Name:** Hacking
+    * **Destination type:** webCategory
+    * **Search: Hacking**, select Hacking
+6.	Select **Add
+ 1. **.
+7.	On **Create a web content filtering policy > Policy Rules**, select **Next**.
+8.	On **Create a web content filtering policy > Review**, confirm your policy configuration.
+    ![imagen 16](../images/IA-16.png)
+9.	Select **Create policy**.
+10.	To confirm policy creation, view it in **Manage web content filtering policies**.
+    ![imagen 17](../images/IA-17.png)
+
+## Create security policy profile
+1.	Sign in to the Microsoft Entra admin center. Go to **Global Secure Access > Secure > Security profiles**. Select **Create profile**.
+    ![imagen 18](../images/IA-18.png)
+
+2.	On **Create a profile > Basics**, complete these fields:
+    * **Profile name:** Allow Hacking sites
+    * **Description:** Add a description
+    * **State:** Enabled
+    * **Priority:** 2000
+3.	Select **Next**.
+4.	On **Create a profile > Link policies**, select **Link a policy**.
+5.	Select **Existing policy**.
+6.	In the **Link a policy** dialog box, complete these fields:
+    * **Policy name:** Allow Hacking
+    * **Priority:** 2000
+    * **State:** Enabled
+7.	Select **Add**.
+8.	On **Create a profile > Link policies**, confirm **Allow Hacking** is listed.
+9.	Select **Next**.
+10.	On **Create a profile > Review**, confirm your profile configuration.
+    ![imagen 19](../images/IA-19.png)
+11.	Select **Create a profile**.
+
+
+
+
+
+
+
+
 
 
 
