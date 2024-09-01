@@ -119,7 +119,9 @@ Microsoft Entra Private Access supports transmission control protocol (TCP) appl
 2.	Sign in to the Microsoft Entra admin center. Go to **Global Secure Access> Applications > Enterprise applications > + New Application**.
     ![imagen 6](../images/RemoteA-06.png)
 3.	Enter a **Name** (such as *FileServer1*). Select the default connector group. Select **+Add application segment**. Enter the **IP address** of the application server and port 445.
+
     ![imagen 7](../images/RemoteA-07.png)
+
 4.	Select **Apply > Save**. Verify that the application is in **Enterprise applications**.
 5.	Go to **Identity > Applications > Enterprise applications**. Select the new application.
 6.	Select **Users and groups**. Add the security group that you created earlier with test users that access this file share from the internet.
@@ -129,7 +131,7 @@ In this section, we create a Conditional Access (CA) policy that blocks access t
 
 1.	Sign in to the Microsoft Entra admin center. Go to **Identity Protection > Conditional Access > + Create new policy**.
 2.	Enter a name and select users. Select users and groups. Select the security group that you created earlier.
-3.	Select **Target resources > Apps** and the **application** that you created earlier (**such as FileServer1*).
+3.	Select **Target resources > Apps** and the **application** that you created earlier (*such as FileServer1*).
 4.	Select **Conditions > User risk > Configure > Yes**. Select **High** and **Medium** risk levels. Select Done.
 5.	Select **Grant > Block access > Select**.
 6.	Toggle on **Enable Policy**.
@@ -143,7 +145,7 @@ In this section, we validate that the user can access the file server while ther
     ![imagen 8](../images/RemoteA-08.png)
 3.	If desired, simulate user risk by following instructions in [Simulating risk detections in Microsoft Entra ID Protection](https://learn.microsoft.com/en-us/entra/id-protection/howto-identity-protection-simulate-risk). You may need to try multiple times to raise user risk to medium or high.
 4.	Try accessing the file server to confirm that access is blocked. You may need to wait up to one hour for block enforcement.
-5.	Validate that access is blocked by the Conditional Access policy you created earlier using sign in logs. Open non-interactive sign in logs from **ZTNA Network Access Client – Private application*. View logs from the Private Access application name that you previously created as the **Resource name**.
+5.	Validate that access is blocked by the Conditional Access policy you created earlier using sign in logs. Open non-interactive sign in logs from *ZTNA Network Access Client – Private application*. View logs from the Private Access application name that you previously created as the **Resource name**.
 
 ## Resources
 * [What is Microsoft Entra ID Protection?](https://learn.microsoft.com/en-us/entra/id-protection/overview-identity-protection) 
