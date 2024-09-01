@@ -99,6 +99,71 @@ Create a web filtering policy
 4.	On **Create a web content filtering policy > Policy Rules**, select **Add Rule**.
 
     ![imagen 6](../images/IA-06.png)
+5.	In Add Rule, complete these fields:
+    * **Name:** Baseline blocked web categories
+    * **Destination type:** webCategory
+6.	**Search:** Select the following categories. Confirm that they are in **Selected items**.
+    * Alcohol and Tobacco
+    * Criminal Activity
+    * Gambling
+    * Hacking
+    * Illegal Software
+    * Social Networking
+    ![imagen 7](../images/IA-07.png)
+    
+7.	Select **Add**.
+8.	On **Create a web content filtering policy > Policy Rules**, confirm your selections.
+
+    ![imagen 8](../images/IA-08.png)
+9.	Select **Next**.
+10.	On **Create a web content filtering policy > Review**, confirm your policy configuration.
+11.	Select **Create policy**.
+    ![imagen 9](../images/IA-09.png)
+
+12.	To confirm policy creation, view it in **Manage web content filtering policies**.
+
+
+## Configure baseline security profile
+1.	Sign in to the Microsoft Entra admin center. Go to **Global Secure Access > Secure > Security profiles**. 
+2.	Select **Baseline Profile**.
+3.	On **Basics**, set **State** to enabled. 
+4.	Select **Save**.
+5.	On **Edit Baseline Profile**, select **Link policies**. Select **Link a policy**. Select **Existing policy**. Complete these fields:
+    * **Link a policy:** Select Policy name and Baseline Internet Access Block Rule
+    * **Priority:** 100
+    * **State:** Enabled
+6.	Select **Add**.
+7.	On **Create a profile > Link policies**, confirm **Baseline Internet Access Block Rule** is listed.
+8.	Close the baseline security profile.
+
+## Allow access to social networking sites
+In this section, we create a security profile that allows access to social networking sites for users that request it.
+### Create web filtering policy
+1.	Sign in to the Microsoft Entra admin center. Go to **Global Secure Access > Secure > Web content filtering policies > Create policy >** [Configure Global Secure Access content filtering](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-configure-web-content-filtering).
+    ![imagen 10](../images/IA-10.png)
+2.	On **Create a web content filtering policy > Basics**, complete these fields:
+    * **Name:** Allow Social Networking sites
+    * **Description:** Add a description
+    * **Action:** Allow
+3.	Select **Next**.
+4.	On **Create a web content filtering policy > Policy Rules**, select **Add Rule**.
+5.	In **Add Rule**, complete these fields:
+    * **Name:** Social networking
+    * **Destination type:** webCategory
+    * **Search:** Social
+6.	Select **Social Networking**
+7.	Select **Add**.
+8.	On **Create a web content filtering policy > Policy Rules**, select **Next**.
+9.	On **Create a web content filtering policy > Review**, confirm your policy configuration.
+    ![imagen 11](../images/IA-11.png)
+10.	Select **Create policy**.
+11.	To confirm policy creation, view it in **Manage web content filtering policies**.
+
+
+
+
+
+
 
 
 
