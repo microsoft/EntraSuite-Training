@@ -229,7 +229,7 @@ In this section, we create a new security profile that allows access to hacking 
     * **Destination type:** webCategory
     * **Search: Hacking**, select Hacking
 6.	Select **Add
- 1. **.
+
 7.	On **Create a web content filtering policy > Policy Rules**, select **Next**.
 8.	On **Create a web content filtering policy > Review**, confirm your policy configuration.
 
