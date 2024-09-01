@@ -166,6 +166,7 @@ In this section, we create a security profile that allows access to social netwo
 11.	To confirm policy creation, view it in **Manage web content filtering policies**.
 ## Create security policy profile
 1.	Sign in to the Microsoft Entra admin center. Go to **Global Secure Access> Secure > Security profiles**. Select **Create profile**.
+
      ![imagen 12](../images/IA-12.png)
 
 2.	On **Create a profile > Basics**, complete these fields:
@@ -184,9 +185,11 @@ In this section, we create a security profile that allows access to social netwo
 8.	On **Create a profile > Link policies**, confirm **Allow Social Networking** is listed.
 9.	Select **Next**.
 10.	On **Create a profile > Review**, confirm your profile configuration.
+
     ![imagen 13](../images/IA-13.png)
 
 11.	Select **Create a profile**.
+
     ![imagen 14](../images/IA-14.png)
 
 ## Create CA policy
@@ -212,7 +215,9 @@ In this section, we create a new security profile that allows access to hacking 
 
 ### Create web filtering policy
 1.	Sign in to the Microsoft Entra admin center. Go to **Global Secure Access > Secure > Web content filtering policies > Create policy >** [Configure Global Secure Access content filtering](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-configure-web-content-filtering).
+
     ![imagen 15](../images/IA-15.png)
+
 2.	On **Create a web content filtering policy > Basics**, complete these fields:
     * **Name:** Allow Hacking sites
     * **Description:** Add a description
@@ -227,13 +232,17 @@ In this section, we create a new security profile that allows access to hacking 
  1. **.
 7.	On **Create a web content filtering policy > Policy Rules**, select **Next**.
 8.	On **Create a web content filtering policy > Review**, confirm your policy configuration.
+
     ![imagen 16](../images/IA-16.png)
+
 9.	Select **Create policy**.
 10.	To confirm policy creation, view it in **Manage web content filtering policies**.
+
     ![imagen 17](../images/IA-17.png)
 
 ## Create security policy profile
 1.	Sign in to the Microsoft Entra admin center. Go to **Global Secure Access > Secure > Security profiles**. Select **Create profile**.
+
     ![imagen 18](../images/IA-18.png)
 
 2.	On **Create a profile > Basics**, complete these fields:
@@ -252,7 +261,9 @@ In this section, we create a new security profile that allows access to hacking 
 8.	On **Create a profile > Link policies**, confirm **Allow Hacking** is listed.
 9.	Select **Next**.
 10.	On **Create a profile > Review**, confirm your profile configuration.
+
     ![imagen 19](../images/IA-19.png)
+
 11.	Select **Create a profile**.
 
 
