@@ -109,6 +109,7 @@ Create a web filtering policy
     * Hacking
     * Illegal Software
     * Social Networking
+    
     ![imagen 7](../images/IA-07.png)
     
 7.	Select **Add**.
@@ -118,6 +119,7 @@ Create a web filtering policy
 9.	Select **Next**.
 10.	On **Create a web content filtering policy > Review**, confirm your policy configuration.
 11.	Select **Create policy**.
+
     ![imagen 9](../images/IA-09.png)
 
 12.	To confirm policy creation, view it in **Manage web content filtering policies**.
