@@ -266,6 +266,70 @@ In this section, we create a new security profile that allows access to hacking 
 
 11.	Select **Create a profile**.
 
+## Create CA policy
+In this section, we create a Conditional Access (CA) policy that enforces the **Allow Hacking sites** security profile for the users that have requested access.
+
+1.	Sign in to the Microsoft Entra admin center. Go to **Protection > Conditional Access**. Select **Create new policy**.
+2.	In the **New Conditional Access Policy** dialog box, complete these fields:
+    * **Name: Internet Access – Allow Hacking sites**
+    * **Users or workload identities: Specific users included**
+    * **What does this policy apply to? Users and groups**
+3.	**Include > Select users and groups** > Select **Users and groups**
+4.	Select your test group (such as *Internet Access – Allow Hacking sites*) > select **Select**.
+5.	**Target resources**
+    * Select what this policy applies to > **Global Secure Access**
+    * Select the traffic profiles this policy applies to > **Internet traffic**
+7.	Leave **Grant** at its default settings to grant access so that your defined security profile defines block functionality.
+7.	In the **Session** dialog box, select Use **Global Secure Access security profile**.
+8.	Select **Allow Hacking sites**.
+9.	In **Conditional Access Overview > Enable policy**, select **On**. Select **Create**.
+
+## Configure access governance
+Follow these steps to create an Entitlement management catalog:
+1.	Sign in to the **Microsoft Entra admin center** as at least an **Identity Governance Administrator**.
+2.	Browse to **Identity governance > Entitlement management > Catalogs**.
+3.	Select **New catalog**
+
+    ![imagen 20](../images/IA-20.png)
+
+4.	Enter a unique name for the catalog and provide a description. Requestors see this information in an access package's details (for example, *Internet Access*).
+5.	For this scenario, we create access packages in the catalog for internal users. Set **Enabled for external users** to **No**.
+
+    ![imagen 21](../images/IA-21.png)
+
+6.	To add the resources, go to **Catalogs** and open the catalog to which you want to add resources. Select **Resources**. Select **Add resources**.
+7.	Add the two security groups that you previously created earlier (such as *Internet Access – Allow Social Networking sites and Internet Access – Allow Hacking sites*).
+
+    ![imagen 22](../images/IA-22.png)
+
+## Create access packages
+In this section, we create access packages that allow users to request access to the internet site categories that each security profile defines. Follow these steps to create an access package in Entitlement management:
+
+1.	Sign in to the Microsoft Entra admin center with at least an Identity Governance Administrator role.
+2.	Go to **Identity governance > Entitlement management > Access package**.
+3.	Select **New access package**.
+4.	For **Basics**, give the access package a name (such as *Internet Access – Allow Social Networking sites*). Specify the catalog that you previously created.
+5.	For **Resource roles**, select the security that you previously added (such as Internet Access – Allow Social Networking sites).
+6.	In **Role**, select **Member**.
+7.	For **Requests**, select **For users in your directory**.
+8.	To scope the users that can request access to social networking sites, select **Specific users and groups** and add an appropriate group of users. Otherwise, select **All members**.
+9.	On **Requests**, select **Yes** for **Enable new requests**.
+10.	**Optional:** In **Approval**, specify whether approval is required when users request this access package.
+11.	For **Lifecycle**, specify when a user's assignment to the access package expires. Specify whether users can extend their assignments. For **Expiration**, set **Access package assignments expiration** to **On date, Number of days, Number of hours**, or **Never**.
+
+    ![imagen 23](../images/IA-23.png)
+
+12.	Repeat the steps to create a new access package that allows access to hacking sites. Configure these settings:
+    * **Resource:** Internet Access – Allow Hacking sites
+    * **Who can request:** SOC team members
+    * **Lifecycle:** Set Number of hours to 8 hours
+
+
+
+
+
+
+
 
 
 
