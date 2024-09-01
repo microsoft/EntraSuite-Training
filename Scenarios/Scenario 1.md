@@ -2,7 +2,7 @@
 ### Enhanced workforce and guest lifecycle (Secure and governed access to all applications and resources)
 
 
-### Introduction
+## Introduction
 In this guide, we describe how to configure Microsoft Entra Suite products for a scenario in which the fictional organization, Contoso, wants to hire new remote employees and provide them with secure and seamless access to necessary apps and resources. 
 They want to invite and collaborate with external users (such as partners, vendors, or customers) and provide them with access to relevant apps and resources. 
 
