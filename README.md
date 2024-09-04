@@ -28,7 +28,7 @@ Explore our real-life scenarios that articulate the value of Microsoft Entra Sui
 
 ### POC Overview
 
-- [Entra Suite Getting Started](TBD)
+- [Entra Suite Getting Started](POCAssets)
 - [Entra Suite POC Overview](TBD)
 
 ### Microsoft Entra Suite Scenarios
@@ -43,7 +43,6 @@ Discover our resources to guide you through the seamless integration of products
 
 ### Clickthrough Demos
 
-- [Entra Suite Customer flyer](TBD)
 - [Enhanced workforce and guest user lifecycle](https://aka.ms/EntraSuiteDemo2)
 - [Secure and govern access to all apps and resources](https://aka.ms/EntraSuiteDemo1)
 - [Govern Internet Access based on business needs](https://aka.ms/EntraSuiteDemo3)
