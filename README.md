@@ -28,8 +28,7 @@ Explore our real-life scenarios that articulate the value of Microsoft Entra Sui
 
 ### POC Overview
 
-- [Entra Suite Getting Started](POCAssets)
-- [Entra Suite POC Overview](TBD)
+- [Entra Suite POC Overview](https://github.com/microsoft/EntraSuite-Training/blob/main/POCAssets/01%20-%20%20Entra%20Suite%20POC%20Overview.pptx)
 
 ### Microsoft Entra Suite Scenarios
 
