@@ -32,9 +32,9 @@ Explore our real-life scenarios that articulate the value of Microsoft Entra Sui
 
 ### Microsoft Entra Suite Scenarios
 
-- [Enhanced workforce and guest user lifecycle](TBD)
-- [Secure and govern access to all apps and resources](TBD)
-- [Govern Internet Access based on business needs](TBD)
+- [Enhanced workforce and guest user lifecycle](https://github.com/microsoft/EntraSuite-Training/blob/main/Scenarios/Scenario%201.md)
+- [Secure and govern access to all apps and resources](https://github.com/microsoft/EntraSuite-Training/blob/main/Scenarios/Scenario2.md)
+- [Govern Internet Access based on business needs](../Scenarios/Scenario 3.md)
 
 ## 🤝 Service Partners resources
 
