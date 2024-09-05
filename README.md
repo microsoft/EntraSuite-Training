@@ -34,7 +34,7 @@ Explore our real-life scenarios that articulate the value of Microsoft Entra Sui
 
 - [Enhanced workforce and guest user lifecycle](https://github.com/microsoft/EntraSuite-Training/blob/main/Scenarios/Scenario%201.md)
 - [Secure and govern access to all apps and resources](https://github.com/microsoft/EntraSuite-Training/blob/main/Scenarios/Scenario2.md)
-- [Govern Internet Access based on business needs](../Scenarios/Scenario 3.md)
+- [Govern Internet Access based on business needs](https://github.com/microsoft/EntraSuite-Training/blob/luflores/Scenarios/Scenario%203.md)
 
 ## 🤝 Service Partners resources
 
