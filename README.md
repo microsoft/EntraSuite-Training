@@ -6,7 +6,7 @@
 
  **Explore Documentation**: Dive into our extensive documentation to understand the core concepts of Entra Suite
 
-### Microsoft Suite products documentation
+### Microsoft Entra Suite features documentation
 
 [Entra Suite Announcement](https://techcommunity.microsoft.com/t5/microsoft-entra-blog/microsoft-entra-suite-now-generally-available/ba-p/2520427)
 
@@ -18,9 +18,17 @@
 
 [Microsoft Entra Verified ID](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-verified-id)
 
+### Microsoft Entra Suite Videos
+
+[Microsoft Entra on Microsoft Mechanics Video](https://www.youtube.com/watch?v=sPtb3dzOdaE&t=1s)
+
+[How to secure access for your workforce with Microsoft Entra Suite](https://www.youtube.com/watch?v=GHXZQkQVHqI)
+
+[Secure access for your workforce with the Microsoft Entra Suite](https://www.youtube.com/watch?v=77grQXv_PpY)
+
 ## 🪙 Licensing
 
-[Microsoft Entra plans and pricing](https://www.microsoft.com/en-us/security/business/microsoft-entra-pricing)
+[Microsoft Entra suite plans and pricing](https://www.microsoft.com/en-us/security/business/microsoft-entra-pricing)
 
 ## 📦 POC in a Box
 
@@ -46,9 +54,7 @@ Discover our resources to guide you through the seamless integration of products
 - [Secure and govern access to all apps and resources](https://aka.ms/EntraSuiteDemo1)
 - [Govern Internet Access based on business needs](https://aka.ms/EntraSuiteDemo3)
 
-
 ## 🛠️ Contribute and Collaborate
-
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
