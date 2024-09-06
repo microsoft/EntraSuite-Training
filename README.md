@@ -36,13 +36,13 @@ Explore our real-life scenarios that articulate the value of Microsoft Entra Sui
 
 ### POC Overview
 
-- [Entra Suite POC Overview](https://github.com/microsoft/EntraSuite-Training/blob/main/POCAssets/01%20-%20%20Entra%20Suite%20POC%20Overview.pptx)
+- [Entra Suite POC Overview](./POCAssets/01%20-%20%20Entra%20Suite%20POC%20Overview.pptx)
 
 ### Microsoft Entra Suite Scenarios
 
-- [Enhanced workforce and guest user lifecycle](https://github.com/microsoft/EntraSuite-Training/blob/main/Scenarios/Scenario%201.md)
-- [Secure and govern access to all apps and resources](https://github.com/microsoft/EntraSuite-Training/blob/main/Scenarios/Scenario2.md)
-- [Govern Internet Access based on business needs](https://github.com/microsoft/EntraSuite-Training/blob/luflores/Scenarios/Scenario%203.md)
+- [Enhanced workforce and guest user lifecycle](./Scenarios/Scenario%201.md)
+- [Secure and govern access to all apps and resources](./Scenarios/Scenario2.md)
+- [Govern Internet Access based on business needs](Scenarios/Scenario%203.md)
 
 ## 🤝 Service Partners resources
 
