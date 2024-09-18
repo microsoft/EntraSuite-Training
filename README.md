@@ -44,6 +44,10 @@ Explore our real-life scenarios that articulate the value of Microsoft Entra Sui
 - [Secure and govern access to all apps and resources](./Scenarios/Scenario2.md)
 - [Govern Internet Access based on business needs](Scenarios/Scenario%203.md)
 
+### Microsoft Entra Identity Protection POC in a Box Deck
+
+- [Microsoft Entra Identity Protection POC Deck](./POCAssets/Entra_Suite_Microsoft_Identity_Protection_POC_in_a_Box.pptx)
+
 ## 🤝 Service Partners resources
 
 Discover our resources to guide you through the seamless integration of products within the Entra Suite
