@@ -4,31 +4,15 @@
 
 ## 🚀 Getting Started
 
- **Explore Documentation**: Dive into our extensive documentation to understand the core concepts of Entra Suite
+Microsoft Entra secures access for any identity to any app or resource from anywhere. The Microsoft Entra Suite is a complete Zero Trust user access solution for your workforce.
 
-### Microsoft Entra Suite features documentation
+The Entra Suite includes five deeply integrated products:
 
-[Entra Suite Announcement](https://techcommunity.microsoft.com/t5/microsoft-entra-blog/microsoft-entra-suite-now-generally-available/ba-p/2520427)
-
-[Microsoft Entra Internet Access](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-internet-access)
-
-[Microsoft Entra Identity Governance](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id-governance)
-
-[Microsoft Entra ID Protection](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id-protection)
-
-[Microsoft Entra Verified ID](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-verified-id)
-
-### Microsoft Entra Suite Videos
-
-[Microsoft Entra on Microsoft Mechanics Video](https://www.youtube.com/watch?v=sPtb3dzOdaE&t=1s)
-
-[How to secure access for your workforce with Microsoft Entra Suite](https://www.youtube.com/watch?v=GHXZQkQVHqI)
-
-[Secure access for your workforce with the Microsoft Entra Suite](https://www.youtube.com/watch?v=77grQXv_PpY)
-
-## 🪙 Licensing
-
-[Microsoft Entra suite plans and pricing](https://www.microsoft.com/en-us/security/business/microsoft-entra-pricing)
+- Private Access to extend MFA and Conditional Access to all resources, and replace VPNs
+- Internet Access to protect against threats of the open internet
+- ID Governance to ensure least-privilege access for any user
+- ID Protection to make access decisions based on real-time risk assessment
+- Verified ID Premium to enable real-time and privacy respecting identity verification
 
 ## 📦 POC in a Box
 
@@ -36,7 +20,7 @@ Explore our real-life scenarios that articulate the value of Microsoft Entra Sui
 
 ### POC Overview
 
-- [Entra Suite POC Overview](./POCAssets/01%20-%20%20Entra%20Suite%20POC%20Overview.pptx)
+- [Entra Suite POC Overview](./POCAssets/01-Entra_Suite_POC_Overview.pptx)
 
 ### Microsoft Entra Suite Scenarios
 
@@ -44,9 +28,11 @@ Explore our real-life scenarios that articulate the value of Microsoft Entra Sui
 - [Secure and govern access to all apps and resources](./Scenarios/Scenario2.md)
 - [Govern Internet Access based on business needs](Scenarios/Scenario%203.md)
 
-### Microsoft Entra Identity Protection POC in a box deck
+## 🏆 Entra Suite Products Training Hubs
 
-- [Microsoft Entra Identity Protection POC Deck](./POCAssets/Entra_Suite_Microsoft_Identity_Protection_POC_in_a_Box.pptx)
+> Explore the products included in the Entra Suite with our Training Hubs and POC-in-a-Box resources
+
+[Entra Suite Products Training Hubs](./TrainingHubs/TrainingHubs.md)
 
 ## 🤝 Service Partners resources
 
@@ -57,6 +43,12 @@ Discover our resources to guide you through the seamless integration of products
 - [Enhanced workforce and guest user lifecycle](https://aka.ms/EntraSuiteDemo2)
 - [Secure and govern access to all apps and resources](https://aka.ms/EntraSuiteDemo1)
 - [Govern Internet Access based on business needs](https://aka.ms/EntraSuiteDemo3)
+
+## 📄 Public Docs and licensing resources
+
+Dive into our extensive documentation to understand the core concepts of Entra Suite as well as useful resources like recordings, demo sites and licensing
+
+- [Documentation and licensing resources](./Docs/docs.md)
 
 ## 🛠️ Contribute and Collaborate
 
