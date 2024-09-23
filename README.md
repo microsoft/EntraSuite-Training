@@ -30,9 +30,9 @@ Explore our real-life scenarios that articulate the value of Microsoft Entra Sui
 
 ## 🏆 Entra Suite Products Training Hubs
 
-> Explore the products included in the Entra Suite with our Training Hubs and POC-in-a-Box resources
+Explore the products included in the Entra Suite with our Training Hubs and POC-in-a-Box resources
 
-[Entra Suite Products Training Hubs](./TrainingHubs/TrainingHubs.md)
+- [Entra Suite Products Training Hubs](./TrainingHubs/TrainingHubs.md)
 
 ## 🤝 Service Partners resources
 
