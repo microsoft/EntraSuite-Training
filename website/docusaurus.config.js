@@ -61,7 +61,7 @@ const config = {
         title: 'Entra Suite - Training',
         logo: {
           alt: 'Entra Suite logo',
-          src: 'img/EntraSuiteLogo.png',
+          src: 'img/EntraSuitelogo.png',
         },
         items: [
           {
