@@ -1,3 +1,9 @@
+---
+sidebar_position: 1
+slug: /
+title: Overview
+---
+
 # Welcome to the Microsoft Entra Suite training Hub
 
 > Learn how the Microsoft Entra Suite simplifies your Zero Trust security model with a complete cloud-based solution for workforce access
@@ -18,15 +24,7 @@ The Entra Suite includes five deeply integrated products:
 
 Explore our real-life scenarios that articulate the value of Microsoft Entra Suite and how its capabilities work together.
 
-### POC Overview
-
-- [Entra Suite POC Overview](./POCAssets/01-Entra_Suite_POC_Overview.pptx)
-
-### Microsoft Entra Suite Scenarios
-
-- [Enhanced workforce and guest user lifecycle](.//Scenarios/Scenario1.md)
-- [Secure and govern access to all apps and resources](./Scenarios/Scenario2.md)
-- [Govern Internet Access based on business needs](./Scenarios/Scenario3.md)
+- [POC Overview](./Scenarios/Readme.md)
 
 ## 🏆 Entra Suite Products Training Hubs
 
@@ -38,11 +36,7 @@ Explore the products included in the Entra Suite with our Training Hubs and POC-
 
 Discover our resources to guide you through the seamless integration of products within the Entra Suite
 
-### Clickthrough Demos
-
-- [Enhanced workforce and guest user lifecycle](https://aka.ms/EntraSuiteDemo2)
-- [Secure and govern access to all apps and resources](https://aka.ms/EntraSuiteDemo1)
-- [Govern Internet Access based on business needs](https://aka.ms/EntraSuiteDemo3)
+- [Service Partners resources](./Partners/Partners.md)
 
 ## 📄 Public Docs and licensing resources
 
