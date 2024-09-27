@@ -6,7 +6,7 @@ title: Products Training Hubs
 
 Explore the products included in the Entra Suite with our Training Hubs and POC-in-a-Box resources
 
-## ![igalogo](../images/IGAlogo3.png) Unlock the Power of Identity Governance
+## ![igalogo](../images/IGALogo3.png) Unlock the Power of Identity Governance
 
 
 
