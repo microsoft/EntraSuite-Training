@@ -2,7 +2,7 @@
 sidebar_position: 2
 title: Entra Suite POC in a Box
 ---
-# Entra Suite POC in a Box 📦
+# 📦 POC in a Box
 
 Explore our real-life scenarios that articulate the value of Microsoft Entra Suite and how its capabilities work together.
 

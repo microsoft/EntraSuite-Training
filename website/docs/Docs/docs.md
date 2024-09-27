@@ -3,7 +3,7 @@ sidebar_position: 5
 title: Licensing and Documentation
 ---
 
-# Public Documentation 📄
+# 📄 Public Documentation
 
 ## Microsoft Entra Suite features documentation
 
