@@ -33,6 +33,13 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+  
+  plugins: [
+    [
+     "@gracefullight/docusaurus-plugin-microsoft-clarity",
+     { projectId: "o9yvvsazyr" },
+   ],
+  ],
 
   plugins: [
     [
@@ -132,5 +139,5 @@ const config = {
     }),
 };
 
-export default config; 
+export default config ; 
 
