@@ -39,7 +39,7 @@ const config = {
      "@gracefullight/docusaurus-plugin-microsoft-clarity",
      { projectId: "o9yvvsazyr" },
    ],
- ],
+  ],
 
   presets: [
     [
@@ -132,4 +132,5 @@ const config = {
     }),
 };
 
-export default config;
+export default config; 
+
