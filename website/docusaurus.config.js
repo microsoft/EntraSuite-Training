@@ -36,14 +36,7 @@ const config = {
   
   plugins: [
     [
-     "@gracefullight/docusaurus-plugin-microsoft-clarity",
-     { projectId: "o9yvvsazyr" },
-   ],
-  ],
-
-  plugins: [
-    [
-     "@gracefullight/docusaurus-plugin-microsoft-clarity",
+     "./node_modules/@gracefullight/docusaurus-plugin-microsoft-clarity",
      { projectId: "o9yvvsazyr" },
    ],
   ],
