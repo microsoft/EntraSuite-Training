@@ -44,7 +44,7 @@ Discover our resources to guide you through the seamless integration of products
 
 Dive into our extensive documentation to understand the core concepts of Entra Suite as well as useful resources like recordings, demo sites and licensing
 
-- [Documentation and licensing resources](./Docs/docs.md)
+- [Documentation and licensing resources](./PublicDocs/docs.md)
 
 ## 🛠️ Contribute and Collaborate
 

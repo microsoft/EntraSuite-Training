@@ -24,4 +24,4 @@ Explore the products included in the Entra Suite with our Training Hubs and POC-
 
 > Microsoft Entra ID Protection helps organizations detect, investigate, and remediate identity-based risks. These identity-based risks can be further fed into tools like Conditional Access to make access decisions
 
-- [Microsoft Entra Identity Protection POC Deck](https://github.com/microsoft/EntraSuite-Training/blob/main/POCAssets/Entra_Suite_Microsoft_Identity_Protection_POC_in_a_Box.pptx)
+- [Microsoft Entra Identity Protection POC Deck](../Assets/Entra_Suite_Microsoft_Identity_Protection_POC_in_a_Box.pptx)
