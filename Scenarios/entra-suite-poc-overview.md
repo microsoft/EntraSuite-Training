@@ -24,23 +24,15 @@ Identify resources to onboard. Recommendations​:
 
 **PoC | Phase 5: Close-out​**
 
-**Wrap-up session (1 hour)​
-**
+**Wrap-up session (1 hour)​**
 
-**Who? ​
-**
+**Who? ​**
+- All teams​
+- Leadership team​
 
-	- All teams​
-
-	- Leadership team​
-
-**Goal​
-**
-
+**Goal​**
 - Present top findings to leadership​
-
 - Discuss strategy to further implement ​
-
 - Fill out PoC closeout survey
 
 
