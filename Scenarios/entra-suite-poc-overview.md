@@ -38,6 +38,7 @@ Identify resources to onboard. Recommendations​:
 **PoC | Phase 4: Govern Internet Access based on business needs​**
 
 ![image](https://github.com/user-attachments/assets/264ffcf9-8e47-41f3-9a0c-31892b0f2481)
+![image](https://github.com/user-attachments/assets/ce049b06-997a-4e9a-b1f9-9d1ef0e591d6)
 
 
 **PoC | Phase 5: Close-out​**
