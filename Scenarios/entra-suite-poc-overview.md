@@ -26,12 +26,19 @@ Identify resources to onboard. Recommendations​:
 **PoC | Phase 2: Enhanced workforce and guest lifecycle​**
 
 ![image](https://github.com/user-attachments/assets/ecfccdcd-95ae-4d04-b845-aab22c56e1bf)
-![image](https://github.com/user-attachments/assets/d2e92a29-b04c-4f02-af9a-d73eda22e466)
+![image](https://github.com/user-attachments/assets/a7f22018-2fad-4f07-b975-da266b4e6583)
 
 
 **PoC | Phase 3: Modernize remote access​**
 
+![image](https://github.com/user-attachments/assets/5ae7eaa9-e50f-4621-9f18-1cdb36587a8a)
+![image](https://github.com/user-attachments/assets/14acadcd-439c-4723-8b5d-a5c1e5c75287)
+
+
 **PoC | Phase 4: Govern Internet Access based on business needs​**
+
+![image](https://github.com/user-attachments/assets/264ffcf9-8e47-41f3-9a0c-31892b0f2481)
+
 
 **PoC | Phase 5: Close-out​**
 
