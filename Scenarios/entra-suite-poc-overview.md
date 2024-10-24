@@ -11,9 +11,9 @@
 
 **<h2>Logistics</h2>**
 
-- Each stage will only require participation of a subset of stakeholders from customer​
-- There are some pre-requisites for each scenario​
-- We recommend phase 2-4 to be done as close together as feasible
+- Each stage will only require participation of a subset of stakeholders from customer​s.
+- There are some pre-requisites for each scenario​.
+- We recommend completing phases 2-4 as close together as feasible.
 
 
 **<h2>PoC | Pre-work</h2>**
