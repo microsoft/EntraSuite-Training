@@ -31,7 +31,7 @@ Identify resources to onboard. Recommendations​:
 **<h2>PoC | Phase 2: Enhanced workforce and guest lifecycle</h2>​**
 
 ![image](https://github.com/user-attachments/assets/ecfccdcd-95ae-4d04-b845-aab22c56e1bf)
-![image](https://github.com/user-attachments/assets/a7f22018-2fad-4f07-b975-da266b4e6583)
+![image](https://github.com/user-attachments/assets/ee4c5feb-da6e-4ce5-9df5-9156f1d39322)
 
 
 
@@ -45,7 +45,7 @@ Identify resources to onboard. Recommendations​:
 **<h2>PoC | Phase 4: Govern Internet Access based on business needs</h2>​**
 
 ![image](https://github.com/user-attachments/assets/531969ae-f452-4c54-b804-7bfdc89570d5)
-![image](https://github.com/user-attachments/assets/ce049b06-997a-4e9a-b1f9-9d1ef0e591d6)
+![image](https://github.com/user-attachments/assets/3adf1a8f-8a61-4187-89c2-eb6440c377e2)
 
 
 
