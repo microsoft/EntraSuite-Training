@@ -43,6 +43,8 @@ Identify resources to onboard. Recommendations​:
 
 **PoC | Phase 5: Close-out​**
 
+![image](https://github.com/user-attachments/assets/5afd8b27-2760-49a6-88cf-f7cbca29f47f)
+
 **Wrap-up session (1 hour)​**
 
 **Who? ​**
