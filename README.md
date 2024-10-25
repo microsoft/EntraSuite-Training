@@ -20,11 +20,11 @@ Explore our real-life scenarios that articulate the value of Microsoft Entra Sui
 
 ### POC Overview
 
-- [Entra Suite POC Overview](./POCAssets/01-Entra_Suite_POC_Overview.pptx)
+- [Entra Suite POC Overview](./Scenarios/entra-suite-poc-overview.md)
 
 ### Microsoft Entra Suite Scenarios
 
-- [Enhanced workforce and guest user lifecycle](.//Scenarios/Scenario1.md)
+- [Enhanced workforce and guest user lifecycle](./Scenarios/Scenario1.md)
 - [Secure and govern access to all apps and resources](./Scenarios/Scenario2.md)
 - [Govern Internet Access based on business needs](./Scenarios/Scenario3.md)
 

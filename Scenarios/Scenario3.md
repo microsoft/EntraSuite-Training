@@ -1,6 +1,6 @@
-## Microsoft Entra Suite – Scenario 3
+# Govern internet access based on business needs
 
-## Govern internet access based on business needs (Secure and governed access to all applications and resources)
+> Secure and governed access to all applications and resources
 
 ## Introduction
 In this guide, we describe how to configure Microsoft Entra Suite products for a scenario in which the fictional organization, Contoso has strict default internet access policies and wants to control internet access according to business requirements.
@@ -11,7 +11,7 @@ In another example scenario and corresponding solution, a SOC analyst needs to a
 
 You can replicate these high-level steps for the Contoso solution as described in this guide.
 1.	Sign up for Microsoft Entra Suite. Enable and configure Microsoft Entra Internet Access for desired network and security settings.
-2.	Deploy [Microsoft Global Secure Access clients](https://learn.microsoft.com/en-us/entra/global-secure-access/concept-clients) on users’ devices. Enable Microsoft Entra Internet Access.
+2.	Deploy [Microsoft Global Secure Access clients](https://learn.microsoft.com/en-us/entra/global-secure-access/concept-clients) on usersï¿½ devices. Enable Microsoft Entra Internet Access.
 3.	Create a security profile and web content filtering policies with a restrictive baseline policy that blocks specific web categories and web destinations for all users.
 4.	Create a security profile and web content filtering policies that allows access to social networking sites.
 5.	Create a security profile that enables the Hacking web category. 
@@ -58,7 +58,7 @@ In this section, we activate Global Secure Access through the Microsoft Entra ad
 1.	Sign in to the Microsoft Entra admin center with at least a Global Administrator role.
 2.	Go to **Global Secure Access > Get started > Activate Global Secure Access in your tenant**. Select **Activate** to enable SSE features.
     ![imagen 1](../images/IA-01.png)
-3.	Go to **Global Secure Access > Connect > Traffic forwarding**. Toggle on Private access profile. Traffic forwarding enables you to configure the type of network traffic to tunnel through Microsoft’s Security Service Edge Solution services. Set up [traffic forwarding profiles](https://learn.microsoft.com/en-us/entra/global-secure-access/concept-traffic-forwarding) to manage traffic types. 
+3.	Go to **Global Secure Access > Connect > Traffic forwarding**. Toggle on Private access profile. Traffic forwarding enables you to configure the type of network traffic to tunnel through Microsoftï¿½s Security Service Edge Solution services. Set up [traffic forwarding profiles](https://learn.microsoft.com/en-us/entra/global-secure-access/concept-traffic-forwarding) to manage traffic types. 
     * The **Microsoft access profile** is for Microsoft 365 access. 
     * The **Private access profile** is for Microsoft Entra Private Access. 
     * The **Internet access profile** is for Microsoft Entra Internet Access. Microsoft's Security Service Edge solution only captures traffic on client devices with Global Secure Access Client installation.
@@ -78,9 +78,9 @@ Microsoft Entra Internet Access for Microsoft 365 and Microsoft Entra Private Ac
 
 ## Create security groups
 In this guide, we use two security groups to assign security profiles using Conditional Access (CA) policies. In the Microsoft Entra Portal, create security groups with these names:
-1.	Internet Access – Allow Social Networking sites
-2.	Internet Access – Allow Hacking sites
-Don’t add any members to these groups. Later in this guide, we configure Identity Governance to add members on request.
+1.	Internet Access ï¿½ Allow Social Networking sites
+2.	Internet Access ï¿½ Allow Hacking sites
+Donï¿½t add any members to these groups. Later in this guide, we configure Identity Governance to add members on request.
 
 ## Block access with baseline profile
 In this section, we block access to inappropriate sites for all users in the organization with a baseline profile.
@@ -197,11 +197,11 @@ In this section, we create a Conditional Access (CA) policy that enforces the **
 
 1.	Sign in to the Microsoft Entra admin center. Go to **Protection > Conditional Access**. Select **Create new policy**.
 2.	In **New Conditional Access Policy**, complete these fields:
-    * **Name:** Internet Access – Allow Social Networking sites
+    * **Name:** Internet Access ï¿½ Allow Social Networking sites
     * **Users or workload identities:** Specific users included
     * **What does this policy apply to?** Users and groups
     * **Include > Select users and groups >** Select **Users and groups**
-3.	Select your test group (such as *Internet Access – Allow Social Networking sites*). Select **Select**.
+3.	Select your test group (such as *Internet Access ï¿½ Allow Social Networking sites*). Select **Select**.
 4.	Target resources
     * **Select what this policy applies to > Global Secure Access**
     * **Select the traffic profiles this policy applies to > Internet traffic**
@@ -271,11 +271,11 @@ In this section, we create a Conditional Access (CA) policy that enforces the **
 
 1.	Sign in to the Microsoft Entra admin center. Go to **Protection > Conditional Access**. Select **Create new policy**.
 2.	In the **New Conditional Access Policy** dialog box, complete these fields:
-    * **Name: Internet Access – Allow Hacking sites**
+    * **Name: Internet Access ï¿½ Allow Hacking sites**
     * **Users or workload identities: Specific users included**
     * **What does this policy apply to? Users and groups**
 3.	**Include > Select users and groups** > Select **Users and groups**
-4.	Select your test group (such as *Internet Access – Allow Hacking sites*) > select **Select**.
+4.	Select your test group (such as *Internet Access ï¿½ Allow Hacking sites*) > select **Select**.
 5.	**Target resources**
     * Select what this policy applies to > **Global Secure Access**
     * Select the traffic profiles this policy applies to > **Internet traffic**
@@ -298,7 +298,7 @@ Follow these steps to create an Entitlement management catalog:
     ![imagen 21](../images/IA-21.png)
 
 6.	To add the resources, go to **Catalogs** and open the catalog to which you want to add resources. Select **Resources**. Select **Add resources**.
-7.	Add the two security groups that you previously created earlier (such as *Internet Access – Allow Social Networking sites and Internet Access – Allow Hacking sites*).
+7.	Add the two security groups that you previously created earlier (such as *Internet Access ï¿½ Allow Social Networking sites and Internet Access ï¿½ Allow Hacking sites*).
 
     ![imagen 22](../images/IA-22.png)
 
@@ -308,8 +308,8 @@ In this section, we create access packages that allow users to request access to
 1.	Sign in to the Microsoft Entra admin center with at least an Identity Governance Administrator role.
 2.	Go to **Identity governance > Entitlement management > Access package**.
 3.	Select **New access package**.
-4.	For **Basics**, give the access package a name (such as *Internet Access – Allow Social Networking sites*). Specify the catalog that you previously created.
-5.	For **Resource roles**, select the security that you previously added (such as Internet Access – Allow Social Networking sites).
+4.	For **Basics**, give the access package a name (such as *Internet Access ï¿½ Allow Social Networking sites*). Specify the catalog that you previously created.
+5.	For **Resource roles**, select the security that you previously added (such as Internet Access ï¿½ Allow Social Networking sites).
 6.	In **Role**, select **Member**.
 7.	For **Requests**, select **For users in your directory**.
 8.	To scope the users that can request access to social networking sites, select **Specific users and groups** and add an appropriate group of users. Otherwise, select **All members**.
@@ -320,13 +320,13 @@ In this section, we create access packages that allow users to request access to
     ![imagen 23](../images/IA-23.png)
 
 12.	Repeat the steps to create a new access package that allows access to hacking sites. Configure these settings:
-    * **Resource:** Internet Access – Allow Hacking sites
+    * **Resource:** Internet Access ï¿½ Allow Hacking sites
     * **Who can request:** SOC team members
     * **Lifecycle:** Set Number of hours to 8 hours
 
 
 ## Test user access
-In this section, we validate that the user can’t access sites that the baseline profile blocks.
+In this section, we validate that the user canï¿½t access sites that the baseline profile blocks.
 
 1.	Sign in to the device where you have installed the Global Secure Access client.
 2.	In a browser, go to sites that the baseline profile blocks and verify blocked access. For example:
@@ -337,18 +337,18 @@ In this section, we validate that the user can’t access sites that the baseline 
 
 ## Request social networking access
 In this section, we validate that a Marketing department user can request access to social networking sites.
-1.	Sign in to the device where you have installed the Global Secure Access client with a user that is a member of the Marketing team (or a user that has authorization to request access to the example Internet Access – Allow Social Networking sites access package).
+1.	Sign in to the device where you have installed the Global Secure Access client with a user that is a member of the Marketing team (or a user that has authorization to request access to the example Internet Access ï¿½ Allow Social Networking sites access package).
 2.	In a browser, validate blocked access to a site in the Social Networking category that the baseline security profile blocks. For example, try accessing youtube.com.
 
     ![imagen 25](../images/IA-25.png)
 
-3.	Browse to https://myaccess.microsoft.com. Select **Access packages**. Select **Request** for the *Internet Access – Allow Social Networking sites* access package. 
+3.	Browse to https://myaccess.microsoft.com. Select **Access packages**. Select **Request** for the *Internet Access ï¿½ Allow Social Networking sites* access package. 
 
     ![imagen 26](../images/IA-26.png)
 
 4.	Select **Continue**. Select **Request**.
 5.	If you configured approval for the access package, sign in as an approver. Browse to https://myaccess.microsoft.com. Approve the request.
-6.	Sign in as a Marketing department user. Browse to https://myaccess.microsoft.com. Select **Request history**. Validate your request status to Internet Access – Allow Social Networking sites is Delivered.
+6.	Sign in as a Marketing department user. Browse to https://myaccess.microsoft.com. Select **Request history**. Validate your request status to Internet Access ï¿½ Allow Social Networking sites is Delivered.
 7.	New settings may take a few minutes to apply. To speed up the process, right-click the Global Secure Access icon in the system tray. Select **Log in as a different user**. Sign in again.
 8.	Try accessing sites in the social networking category that the baseline security profile blocks. Validate that you can successfully browse them. For example, try browsing youtube.com.
 
@@ -358,15 +358,15 @@ In this section, we validate that a Marketing department user can request access
 ## Request hacking site access
 In this section, we validate that a SOC team user can request access to hacking sites.
 
-1.	Sign in to the device where you have installed the Global Secure Access client with a user that is a member of the SOC team (or a user that has authorization to request access to the example Internet Access – Allow Hacking sites access package).
+1.	Sign in to the device where you have installed the Global Secure Access client with a user that is a member of the SOC team (or a user that has authorization to request access to the example Internet Access ï¿½ Allow Hacking sites access package).
 2.	In a browser, validate blocked access to a site in the hacking category that the baseline security profile blocks. For example, hackthissite.org.
    
     ![imagen 28](../images/IA-28.png)
 
-3.	Browse to https://myaccess.microsoft.com. Select **Access packages**. Select **Request** for the *Internet Access – Allow Hacking sites* access package.
+3.	Browse to https://myaccess.microsoft.com. Select **Access packages**. Select **Request** for the *Internet Access ï¿½ Allow Hacking sites* access package.
 4.	Select **Continue**. Select **Request**.
 5.	If you configured approval for the access package, sign in as an approver. Browse to https://myaccess.microsoft.com. Approve the request.
-6.	Sign in as a SOC team user. Browse to https://myaccess.microsoft.com. Select **Request history**. Validate your request status to Internet Access – Allow Hacking sites is **Delivered**.
+6.	Sign in as a SOC team user. Browse to https://myaccess.microsoft.com. Select **Request history**. Validate your request status to Internet Access ï¿½ Allow Hacking sites is **Delivered**.
 7.	New settings may take a few minutes to apply. To speed up the process, right-click the Global Secure Access icon in the system tray. Select **Log in as a different user**. Sign in again.
 8.	Try accessing sites in the hacking category that the baseline security profile blocks. Validate that you can successfully browse them. For example, try browsing hackthissite.org.
 

@@ -26,7 +26,7 @@ The Entra Suite includes five deeply integrated products:
 
 Explore our real-life scenarios that articulate the value of Microsoft Entra Suite and how its capabilities work together.
 
-- [POC Overview](./Scenarios/Readme.md)
+- [POC in a Box](./Scenarios/Readme.md)
 
 ## 🏆 Entra Suite Products Training Hubs
 

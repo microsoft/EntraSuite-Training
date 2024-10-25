@@ -1,8 +1,9 @@
-## Microsoft Entra Suite – Scenario 2
+# Modernize remote access
 
-## Modernize remote access (Secure and governed access to all applications and resources)
+> Secure and governed access to all applications and resources
 
 ## Introduction
+
 In this guide, we describe how to configure Microsoft Entra Suite products for a scenario in which the fictional organization, Contoso, is upgrading their existing VPN solution. The new, scalable cloud-based solution helps them to move towards Secure Access Service Edge (SASE). To accomplish this objective, they deploy [Microsoft Entra Internet Access](https://learn.microsoft.com/en-us/entra/global-secure-access/concept-internet-access), [Microsoft Entra Private Access](https://learn.microsoft.com/en-us/entra/global-secure-access/concept-private-access), and [Microsoft Entra ID Protection](https://learn.microsoft.com/en-us/entra/id-protection/overview-identity-protection).
 
 Microsoft Entra Private Access provides users (whether in an office or working remotely) secure access to private corporate resources. Microsoft Entra Private Access builds on the Microsoft Entra application proxy to extend access to any private resource, independent of TCP/IP port and protocol.
@@ -34,7 +35,7 @@ These are the benefits of using these three solutions together:
 
 
 ## Requirements
-This section defines the requirements for this scenario’s solution.
+This section defines the requirements for this scenarioï¿½s solution.
 
 ## Permissions
 Administrators who interact with Global Secure Access preview features require the Global Secure Access Administrator and Application Administrator roles.
@@ -72,7 +73,7 @@ In this section, we activate Global Secure Access through the Microsoft Entra ad
 2.	Go to **Global Secure Access> Get started > Activate Global Secure Access in your tenant**. Select **Activate** to enable SSE features.
     ![imagen 2](../images/RemoteA-02.png)
 
-3.	Go to **Global Secure Access> Connect > Traffic forwarding**. Toggle on Private access profile. Traffic forwarding enables you to configure the type of network traffic to tunnel through Microsoft’s Security Service Edge Solution services. Set up [traffic forwarding profiles](https://learn.microsoft.com/en-us/entra/global-secure-access/concept-traffic-forwarding) to manage traffic types. 
+3.	Go to **Global Secure Access> Connect > Traffic forwarding**. Toggle on Private access profile. Traffic forwarding enables you to configure the type of network traffic to tunnel through Microsoftï¿½s Security Service Edge Solution services. Set up [traffic forwarding profiles](https://learn.microsoft.com/en-us/entra/global-secure-access/concept-traffic-forwarding) to manage traffic types. 
     * The Microsoft 365 access profile is for Microsoft Entra Internet Access for Microsoft 365. 
     * The Private access profile is for Microsoft Entra Private Access. 
     * The Internet access profile is for Microsoft Entra Internet Access. Microsoft's Security Service Edge solution only captures traffic on client devices with Global Secure Access Client installation.
@@ -124,7 +125,7 @@ Microsoft Entra Private Access supports transmission control protocol (TCP) appl
 6.	Select **Users and groups**. Add the security group that you created earlier with test users that access this file share from the internet.
 
 ## Secure published application
-In this section, we create a Conditional Access (CA) policy that blocks access to the new application when a user’s risk is elevated.
+In this section, we create a Conditional Access (CA) policy that blocks access to the new application when a userï¿½s risk is elevated.
 
 1.	Sign in to the Microsoft Entra admin center. Go to **Identity Protection > Conditional Access > + Create new policy**.
 2.	Enter a name and select users. Select users and groups. Select the security group that you created earlier.
@@ -135,14 +136,14 @@ In this section, we create a Conditional Access (CA) policy that blocks access t
 7.	Review your settings. Select **Create**.
 
 ## Validate access
-In this section, we validate that the user can access the file server while there’s no risk. Confirm that access is blocked when risk is detected.
+In this section, we validate that the user can access the file server while thereï¿½s no risk. Confirm that access is blocked when risk is detected.
 
 1.	Sign in to the device where you previously installed the Global Secure Access client.
 2.	Try to access the file server by running **\\IP_address** and validate that you can browse the file share.
     ![imagen 8](../images/RemoteA-08.png)
 3.	If desired, simulate user risk by following instructions in [Simulating risk detections in Microsoft Entra ID Protection](https://learn.microsoft.com/en-us/entra/id-protection/howto-identity-protection-simulate-risk). You may need to try multiple times to raise user risk to medium or high.
 4.	Try accessing the file server to confirm that access is blocked. You may need to wait up to one hour for block enforcement.
-5.	Validate that access is blocked by the Conditional Access policy you created earlier using sign in logs. Open non-interactive sign in logs from *ZTNA Network Access Client – Private application*. View logs from the Private Access application name that you previously created as the **Resource name**.
+5.	Validate that access is blocked by the Conditional Access policy you created earlier using sign in logs. Open non-interactive sign in logs from *ZTNA Network Access Client ï¿½ Private application*. View logs from the Private Access application name that you previously created as the **Resource name**.
 
 ## Resources
 * [What is Microsoft Entra ID Protection?](https://learn.microsoft.com/en-us/entra/id-protection/overview-identity-protection) 

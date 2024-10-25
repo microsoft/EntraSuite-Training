@@ -1,6 +1,6 @@
-## Microsoft Entra Suite – Scenario 1
-## Enhanced workforce and guest lifecycle (Secure and governed access to all applications and resources)
+# Enhanced workforce and guest lifecycle
 
+> Secure and governed access to all applications and resources
 
 ## Introduction
 In this guide, we describe how to configure Microsoft Entra Suite products for a scenario in which the fictional organization, Contoso, wants to hire new remote employees and provide them with secure and seamless access to necessary apps and resources. 
@@ -10,9 +10,9 @@ Contoso uses Microsoft Entra Verified ID to issue and verify digital proofs of i
 
 They use Microsoft Entra ID Governance to create and grant access packages for employees and external users based on verifiable credentials. 
 
-•	For employees, they base access packages on job function and department. Access packages include cloud and on-premises apps and resources to which employees need access.
+ï¿½	For employees, they base access packages on job function and department. Access packages include cloud and on-premises apps and resources to which employees need access.
 
-•	For external collaborators, they base access packages on based on invitation to define external user roles and permissions. The access packages include only apps and resources to which external users need access.
+ï¿½	For external collaborators, they base access packages on based on invitation to define external user roles and permissions. The access packages include only apps and resources to which external users need access.
 
 Employees and external users can request access packages through a self-service portal and provide their digital proofs as identity verification. With single sign-on and multifactor authentication, employees and external users use Microsoft Entra accounts to access apps and resources that their access packages include. Contoso verifies credentials and grants access packages without requiring manual approvals or provisioning.
 
@@ -37,7 +37,7 @@ For this scenario, complete these prerequisite steps to configure Microsoft Entr
 	
 	![imagen 1](../images/VID-01.png)
 	
-5.	Sign in to the test user’s **My Account** with their Microsoft Entra credentials. Select **Get my Verified ID** to issue a verified workplace credential
+5.	Sign in to the test userï¿½s **My Account** with their Microsoft Entra credentials. Select **Get my Verified ID** to issue a verified workplace credential
 	
 	![imagen 2](../images/VID-02.png)
 
@@ -47,7 +47,7 @@ Follow these prerequisite steps to add a trusted external organization (B2B) for
 1.	Sign in to the Microsoft Entra admin center with at least a Security Administrator role.
 2.	Go to **Identity > External Identities > Cross-tenant access settings**. Select **Organizational settings**
 3.	Select **Add organization**.
-4.	Enter the organization’s full domain name (or tenant ID).
+4.	Enter the organizationï¿½s full domain name (or tenant ID).
 5.	Select the organization in the search results. Select **Add**.
 6.	Confirm the new organization (that inherits its access settings from default settings) in **Organizational settings**.
 	![image 3] (../images/VID-03.png)
@@ -148,7 +148,7 @@ After you configure an access package with a Verified ID requirement, end-users 
 5.	After you share your credentials, continue with the approval workflow.
 6.	**Optional**: Simulate user risk by following these instructions: [Simulating risk detections in Microsoft Entra ID Protection](https://learn.microsoft.com/en-us/entra/id-protection/howto-identity-protection-simulate-risk). You may need to try multiple times to raise the user risk to medium or high.
 7.	Try accessing the application that you previously created for the scenario to confirm blocked access. You may need to wait up to one hour for block enforcement.
-8.	Validate that access is blocked by the Conditional Access (CA) policy that you created earlier using sign-in logs. Open non-interactive sign in logs from the ZTNA Network Access Client – Private application. View logs from the Private Access application name that you previously created as the **Resource name**.
+8.	Validate that access is blocked by the Conditional Access (CA) policy that you created earlier using sign-in logs. Open non-interactive sign in logs from the ZTNA Network Access Client ï¿½ Private application. View logs from the Private Access application name that you previously created as the **Resource name**.
 
  
  
