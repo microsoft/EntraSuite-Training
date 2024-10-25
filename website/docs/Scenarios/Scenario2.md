@@ -1,6 +1,11 @@
-# Microsoft Entra Suite Scenario 2
+---
+sidebar_position: 5
+title: Modernize remote access
+---
 
-## Modernize remote access (Secure and governed access to all applications and resources)
+# Modernize remote access
+
+> Secure and governed access to all applications and resources
 
 ## Introduction
 
@@ -13,6 +18,7 @@ Remote users can connect to private apps across hybrid and multi-cloud environme
 Microsoft Entra ID Protection cloud-based identity and access management (IAM) solution helps protect user identities and credentials from compromise.
 
 You can replicate these high-level steps for the Contoso solution as described in this guide.
+
 1.Sign up for Microsoft Entra Suite. Enable and configure Microsoft Entra Internet and Private Access to desired network and security settings.
 
 2.Deploy [Microsoft Global Secure Access client](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-install-windows-client) on user devices and [Microsoft Entra Private Access connector](https://learn.microsoft.com/en-us/entra/architecture/sse-deployment-guide-private-access)s on private networks. Include multi-cloud IaaS based virtual networks to access apps and resources on Contoso networks.

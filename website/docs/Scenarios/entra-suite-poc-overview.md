@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+title: POC Overview
+---
 # Entra Suite POC Overview
 
 ## Microsoft Entra Suite Capabilities
@@ -88,3 +92,4 @@ Identify resources to onboard. Recommendations​:
 * Present top findings to leadership
 * Discuss strategy to further implement
 * Collect Feedback
+

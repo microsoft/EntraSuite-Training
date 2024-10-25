@@ -1,3 +1,7 @@
+---
+sidebar_position: 8
+title: Product Training Hubs
+---
 # Products Training Hubs
 
 Explore the products included in the Entra Suite with our Training Hubs and POC-in-a-Box resources

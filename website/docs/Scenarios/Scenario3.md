@@ -1,6 +1,11 @@
-# Microsoft Entra Suite Scenario 3
+---
+sidebar_position: 6
+title: Govern internet access based on business needs
+---
 
-## Govern internet access based on business needs (Secure and governed access to all applications and resources)
+# Govern internet access based on business needs
+
+> Secure and governed access to all applications and resources
 
 ## Introduction
 
@@ -11,16 +16,22 @@ In an example scenario for which we describe how to configure its solution in th
 In another example scenario and corresponding solution, a SOC analyst needs to access a group of high-risk internet destinations for a specific time to investigate an incident. The SOC analyst can make that request in My Access. Upon approval, they become a member of a group that grants them access to high-risk internet destinations. 
 
 You can replicate these high-level steps for the Contoso solution as described in this guide.
-1.	Sign up for Microsoft Entra Suite. Enable and configure Microsoft Entra Internet Access for desired network and security settings.
-2.	Deploy [Microsoft Global Secure Access clients](https://learn.microsoft.com/en-us/entra/global-secure-access/concept-clients) on users� devices. Enable Microsoft Entra Internet Access.
-3.	Create a security profile and web content filtering policies with a restrictive baseline policy that blocks specific web categories and web destinations for all users.
-4.	Create a security profile and web content filtering policies that allows access to social networking sites.
-5.	Create a security profile that enables the Hacking web category. 
-6.	Use [Microsoft Entra ID Governance](https://learn.microsoft.com/en-us/entra/id-governance/identity-governance-overview) to allow users requesting access to access packages such as: 
+
+1. Sign up for Microsoft Entra Suite. Enable and configure Microsoft Entra Internet Access for desired network and security settings.
+
+2. Deploy [Microsoft Global Secure Access clients](https://learn.microsoft.com/en-us/entra/global-secure-access/concept-clients) on users� devices. Enable Microsoft Entra Internet Access.
+
+3. Create a security profile and web content filtering policies with a restrictive baseline policy that blocks specific web categories and web destinations for all users.
+
+4. Create a security profile and web content filtering policies that allows access to social networking sites.
+
+5. Create a security profile that enables the Hacking web category. 
+
+6. Use [Microsoft Entra ID Governance](https://learn.microsoft.com/en-us/entra/id-governance/identity-governance-overview) to allow users requesting access to access packages such as: 
     * Marketing department users can request access to social networking sites with a quarterly access review. 
     * SOC team members can request access to high-risk internet destinations with a time limit of eight hours.
-7.	Create and link two [Conditional Access policies](https://learn.microsoft.com/en-us/entra/identity/conditional-access/plan-conditional-access) using the Global Secure Access security profile session control. Scope the policy to groups of users for enforcement.
-8.	Confirm that traffic is appropriately granted with traffic logs in Global Secure Access. Ensure that Marketing department users can access the access package in the My Access portal.
+7. Create and link two [Conditional Access policies](https://learn.microsoft.com/en-us/entra/identity/conditional-access/plan-conditional-access) using the Global Secure Access security profile session control. Scope the policy to groups of users for enforcement.
+8. Confirm that traffic is appropriately granted with traffic logs in Global Secure Access. Ensure that Marketing department users can access the access package in the My Access portal.
 These are the benefits of using these solutions together:
     * **Least privilege access to internet destinations**. Reduce internet resource access to only what the user requires for their job role through the joiner/mover/leaver cycle. This approach reduces end user and device compromise risk.
     * **Simplified and unified management**. Manage network and security functions from a single cloud-based console, reducing complexity and cost of maintaining multiple solutions and appliances.

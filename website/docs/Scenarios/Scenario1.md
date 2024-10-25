@@ -1,8 +1,14 @@
-# Microsoft Entra Suite Scenario 1
+---
+sidebar_position: 4
+title: Enhanced workforce and guest lifecycle
+---
+# Enhanced workforce and guest lifecycle
 
-## Enhanced workforce and guest lifecycle (Secure and governed access to all applications and resources)
+> Secure and governed access to all applications and resources
+
 ## Introduction
-In this guide, we describe how to configure Microsoft Entra Suite products for a scenario in which the fictional organization, Contoso, wants to hire new remote employees and provide them with secure and seamless access to necessary apps and resources. 
+
+In this guide, we describe how to configure Microsoft Entra Suite products for a scenario in which the fictional organization, Contoso, wants to hire new remote employees and provide them with secure and seamless access to necessary apps and resources.
 They want to invite and collaborate with external users (such as partners, vendors, or customers) and provide them with access to relevant apps and resources. 
 
 Contoso uses Microsoft Entra Verified ID to issue and verify digital proofs of identity and status for new remote employees (based on human resources data) and external users (based on email invitations). Digital wallets store identity proof and status to allow access to apps and resources. As an additional security measure, Contoso may verify identity with FaceCheck facial recognition based on the picture that the credential stores.
@@ -18,6 +24,7 @@ Employees and external users can request access packages through a self-service 
 Contoso uses Microsoft Entra Identity Protection and Conditional Access (CA) to monitor and protect accounts from risky sign-ins and user behavior. They enforce appropriate access controls based on location, device, and risk level
 
 ## Configure prerequisites
+
 To successfully deploy and test the solution, configure the prerequisites that we describe in this section.
 Configure Microsoft Entra Verified ID
 For this scenario, complete these prerequisite steps to configure Microsoft Entra Verified ID with Quick setup (Preview):
