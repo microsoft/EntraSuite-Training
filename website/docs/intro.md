@@ -20,7 +20,9 @@ The Entra Suite includes five deeply integrated products:
 - ID Protection to make access decisions based on real-time risk assessment
 - Verified ID Premium to enable real-time and privacy respecting identity verification
 
-### Start your free 90-day trial today! 👉 [Microsoft Entra Suite Trial](https://aka.ms/EntraSuiteTrial)
+## <center>  👉 [Start your free 90-day trial today!](https://aka.ms/EntraSuiteTrial) 👈 </center>
+
+![image](./images/EntraSuiteProducts.png) 
 
 ## 📦 POC in a Box
 
@@ -28,17 +30,17 @@ Explore our real-life scenarios that articulate the value of Microsoft Entra Sui
 
 - [POC in a Box](./Scenarios/Readme.md)
 
-## 🏆 Entra Suite Products Training Hubs
-
-Explore the products included in the Entra Suite with our Training Hubs and POC-in-a-Box resources
-
-- [Entra Suite Products Training Hubs](./TrainingHubs/TrainingHubs.md)
-
 ## 🤝 Service Partners resources
 
 Discover our resources to guide you through the seamless integration of products within the Entra Suite
 
 - [Service Partners resources](./Partners/Partners.md)
+
+## 🏆 Entra Suite Products Training Hubs
+
+Explore the products included in the Entra Suite with our Training Hubs and POC-in-a-Box resources
+
+- [Entra Suite Products Training Hubs](./TrainingHubs/TrainingHubs.md)
 
 ## 📄 Public Docs and licensing resources
 

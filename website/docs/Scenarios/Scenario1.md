@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 title: Enhanced workforce and guest lifecycle
 ---
 # Enhanced workforce and guest lifecycle

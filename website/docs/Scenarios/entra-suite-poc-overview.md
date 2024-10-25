@@ -1,6 +1,6 @@
 ---
 sidebar_position: 3
-title: POC Overview
+title: Proof of Concept Overview
 ---
 # Entra Suite POC Overview
 

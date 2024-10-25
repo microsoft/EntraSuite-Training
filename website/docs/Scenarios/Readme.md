@@ -6,7 +6,15 @@ title: Entra Suite POC in a Box
 
 Explore our real-life scenarios that articulate the value of Microsoft Entra Suite and how its capabilities work together.
 
+![image](../images/EntraSuiteOverall.png)
+
+### Overview
+
 - [Entra Suite POC Overview](./entra-suite-poc-overview.md)
+
+### Success Criteria
+
+- [Entra Suite POC Success Criteria](./success-criteria.md)
 
 ### Microsoft Entra Suite Scenarios
 
