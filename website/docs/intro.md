@@ -8,7 +8,7 @@ title: Overview
 
 > Learn how the Microsoft Entra Suite simplifies your Zero Trust security model with a complete cloud-based solution for workforce access
 
-## 🚀 Getting Started
+## 🚀 Getting started
 
 Microsoft Entra secures access for any identity to any app or resource from anywhere. The Microsoft Entra Suite is a complete Zero Trust user access solution for your workforce.
 
@@ -24,23 +24,23 @@ The Entra Suite includes five deeply integrated products:
 
 ![image](./images/EntraSuiteProducts.png) 
 
-## 📦 POC in a Box
+## 📦 POC in a box
 
 Explore our real-life scenarios that articulate the value of Microsoft Entra Suite and how its capabilities work together.
 
 - [POC in a Box](./Scenarios/Readme.md)
 
-## 🤝 Service Partners resources
+## 🤝 Service partners resources
 
 Discover our resources to guide you through the seamless integration of products within the Entra Suite
 
 - [Service Partners resources](./Partners/Partners.md)
 
-## 🏆 Entra Suite Products Training Hubs
+## 🏆 Entra Suite products training hubs
 
 Explore the products included in the Entra Suite with our Training Hubs and POC-in-a-Box resources
 
-- [Entra Suite Products Training Hubs](./TrainingHubs/TrainingHubs.md)
+- [Entra Suite products training hubs](./TrainingHubs/TrainingHubs.md)
 
 ## 📄 Public Docs and licensing resources
 

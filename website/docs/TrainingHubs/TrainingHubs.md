@@ -2,6 +2,7 @@
 sidebar_position: 9
 title: Entra Suite products training hubs
 ---
+
 # 🏫 Product Training Hubs
 
 Explore the products included in the Entra Suite with our Training Hubs and POC-in-a-Box resources
@@ -10,7 +11,7 @@ Explore the products included in the Entra Suite with our Training Hubs and POC-
 
 > Empower Your Identity Management Journey with Microsoft Entra ID
 
-- [Microsoft Entra identity governance Training Hub](https://aka.ms/entraidgovernancetraining)
+- **[Microsoft Entra identity governance Training Hub](https://aka.ms/entraidgovernancetraining)**
 
 ## Unlock the power of identity-centric secure network access
 
@@ -23,3 +24,9 @@ Explore the products included in the Entra Suite with our Training Hubs and POC-
 > Microsoft Entra ID Protection helps organizations detect, investigate, and remediate identity-based risks. These identity-based risks can be further fed into tools like Conditional Access to make access decisions
 
 - **[Microsoft Entra Identity Protection POC Deck](../Assets/Entra_Suite_Microsoft_Identity_Protection_POC_in_a_Box.pptx)**
+
+## Microsoft Entra Verified ID samples repository
+
+> This repo contains a set of Microsoft Entra Verified ID samples
+
+- **[Microsoft Entra Verified ID samples](https://github.com/Azure-Samples/active-directory-verifiable-credentials-dotnet)**

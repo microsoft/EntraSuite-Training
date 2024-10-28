@@ -1,9 +1,9 @@
 ---
 sidebar_position: 10
-title: Licensing and Documentation
+title: Licensing and documentation
 ---
 
-# 📄 Public Documentation
+# 📄 Public documentation
 
 ## Microsoft Entra Suite features documentation
 
@@ -17,7 +17,7 @@ title: Licensing and Documentation
 
 [Microsoft Entra Verified ID](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-verified-id)
 
-## Microsoft Entra Suite Videos
+## Microsoft Entra Suite videos
 
 [Microsoft Entra on Microsoft Mechanics Video](https://www.youtube.com/watch?v=sPtb3dzOdaE&t=1s)
 
