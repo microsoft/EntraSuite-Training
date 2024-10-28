@@ -46,7 +46,7 @@ Explore the products included in the Entra Suite with our Training Hubs and POC-
 
 Dive into our extensive documentation to understand the core concepts of Entra Suite as well as useful resources like recordings, demo sites and licensing
 
-- [Documentation and licensing resources](./PublicDocs/docs.md)
+- [Documentation and licensing resources](./PublicDocs/Readme.md)
 
 ## 🛠️ Contribute and Collaborate
 
