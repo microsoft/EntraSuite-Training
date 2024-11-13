@@ -16,7 +16,7 @@ Discover our resources to guide you through the seamless integration of products
 |   | Partner-ready FAQ                              |  [Partner FAQ](https://livesend.microsoft.com/i/H2hvHYolpt9tohTvCXlMsc___ICFSohdoskrRXvkV5N5xaL6pz7NrsUkfS18ywUabtlisWW6fnesCnUd80CVQKohLLG3nNfIqrlJa9jNJPLUSSIGNWkKZPLUSSIGNce9hQC9Xnbp4OXzvho4)       |
 | **2** | **Entra POC in a box**                     |                |
 |   | SSE                                            | [SSE POC in a box](https://microsoft.github.io/GlobalSecureAccess/)                              |
-|   | ID Governance                                  | [ID protection POC in a box](https://microsoft.github.io/EntraIDGovernance-Training/)                             |
+|   | ID Governance                                  | [ID Governance POC in a box](https://microsoft.github.io/EntraIDGovernance-Training/)                             |
 |   | ID protection                                  | [Microsoft Entra Identity Protection POC Deck](../Assets/Entra_Suite_Microsoft_Identity_Protection_POC_in_a_Box.pptx)              |
 |   | Verified ID                                    | [Verified ID POC in a Box](https://github.com/Azure-Samples/active-directory-verifiable-credentials)              |
 | **3** | **Demos**                                  |                |
