@@ -1,8 +1,3 @@
----
-sidebar_position: 4
-title: Success Criteria
----
-
 # Success Criteria for Entra Suite POC
 
 > Checklist for Evaluating POC Success for Entra Suite
@@ -15,32 +10,22 @@ title: Success Criteria
 * Entra Identity protection
 * Entra Verified ID
 
-## Established criteria for success to guide future deployment decisions based on the following scenarios:
+## Established criteria for success based on the following scenarios
 
-### Enhanced workforce and guest lifecycle
-
-* Securely onboard employees using Entra Verified ID  
-* Use Entra ID Governance to create and grant access to applications using access packages  
-* Provide access to resources to external users (guests) using Access Packages with Entra Verified ID
-* Setup Entra Identity Protection to monitor and protect accounts from risky sign-ins and user behavior
-* Create CA policy to enforce access controls based on risk level, location and device  
-
-### Modernize remote access
-
-* Deploy and configure Global Secure access client
-* Setup Private access connector to extend access to any private recourse securely
-* Publish an application using Entra Private Access (commonly a new or existing File share)
-* Create necessary profiles and CA policies as desired
-* Test users to connect to this private app without requiring a VPN solution  
-
-### Govern internet access based on business needs  
-
-* Deploy and configure Global Secure access client
-* Create security profile and web content filtering including a baseline policy and proper samples
-* Create a security profile that enabled users to access hacking web category
-* Use Entra ID Governance to create access packages with groups resources that allows our scenario departments to access multiple security profiles with limited time
-* Create proper conditional access policies to control and scope to groups of enforcement
-* Confirm that traffic is appropriately granted with traffic logs with test users
+| Scenario / Phase                                       | Task / Features                         | Success Criteria                                                                   |
+|--------------------------------------------------------|-----------------------------------------|------------------------------------------------------------------------------------|
+| **Enhanced workforce and guest user lifecycle**        | Configure pre-requisites                | Microsoft Entra Verified ID , Add trusted orgs , create catalog                    |
+|                                                        | Create Access Packages                  | Create test Access packages                                                        |
+|                                                        | Create sign-in risk-based CA policy     | Create risk based policy                                                           |
+|                                                        | Request access package                  | End user request access package                                                    |
+| **Secure and govern access to all apps and resources** | Configure Global Access                 | Install Client, Setup connector server, Create security group                      |
+|                                                        | Publish Application                     | Secure published application , validate access                                     |
+| **Govern internet access based on business needs**     | Configure Global Access                 | Install Client, Setup connector server, Create security group                      |
+|                                                        | Block Access with baseline profile      | Create web filtering policy, Configure baseline security profile                   |
+|                                                        | Allow Access to social networking sites | Create web filtering policy, Configure baseline security profile, Create CA policy |
+|                                                        | Allow access to hacking sites           | Create web filtering policy, Configure baseline security profile, Create CA policy |
+|                                                        | Configure Access  Governance            | Configure Access  Governance                                                       |
+|                                                        | Test Users                              | Request social networking access, request hacing site access                       |
 
 ## Next Steps
 
