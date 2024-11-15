@@ -38,6 +38,8 @@ Explore the products included in the Entra Suite with our Training Hubs and POC-
 
 Discover our resources to guide you through the seamless integration of products within the Entra Suite
 
+- [Entra Suite Partner Kit](/Partners/Partners.md)
+
 ### Clickthrough Demos
 
 - [Enhanced workforce and guest user lifecycle](https://aka.ms/EntraSuiteDemo2)
