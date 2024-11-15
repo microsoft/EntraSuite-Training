@@ -1,8 +1,3 @@
----
-sidebar_position: 8
-title: Service Partners resources
----
-
 # 🤝 Service Partners resources
 
 Discover our resources to guide you through the seamless integration of products within the Entra Suite

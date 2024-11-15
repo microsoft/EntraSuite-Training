@@ -4,7 +4,7 @@ slug: /
 title: Overview
 ---
 
-# Welcome to the Microsoft Entra Suite training Hub
+# Welcome to the Microsoft Entra Suite training hub
 
 > Learn how the Microsoft Entra Suite simplifies your Zero Trust security model with a complete cloud-based solution for workforce access
 

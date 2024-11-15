@@ -65,7 +65,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/social-card.png',
       navbar: {
-        title: 'Entra Suite - Training',
+        title: 'Entra Suite - Training hub',
         logo: {
           alt: 'Entra Suite logo',
           src: 'img/EntraSuitelogo.png',
@@ -113,7 +113,7 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: 'Have feedback? Open an issue in GitHub',
             items: [
              
               {
@@ -123,7 +123,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Built by the Microsoft Identity Customer Acceleration Team.`,
+        copyright: `The content on this repo is maintained by the Microsoft Entra Customer Experience Engineering team.`,
       },
       prism: {
         theme: prismThemes.github,
