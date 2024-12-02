@@ -1,8 +1,8 @@
 ---
 sidebar_position: 5
-title: Enhanced workforce and guest lifecycle
+title: Streamline employee and guest onboarding
 ---
-# Enhanced workforce and guest lifecycle
+# Streamline employee and guest onboarding
 
 > Secure and governed access to all applications and resources
 
@@ -15,7 +15,8 @@ Contoso uses Microsoft Entra Verified ID to issue and verify digital proofs of i
 
 They use Microsoft Entra ID Governance to create and grant access packages for employees and external users based on verifiable credentials. 
 
-For employees, they base access packages on job function and department. Access packages include cloud and on-premises apps and resources to which employees need access.
+For employees, they base access packages on job function and department or Lifecycle workflows. Access packages include cloud and on-premises apps and resources to which employees need access.
+
 
 For external collaborators, they base access packages on based on invitation to define external user roles and permissions. The access packages include only apps and resources to which external users need access.
 
@@ -121,6 +122,83 @@ Follow these steps to create an access package in entitlement management with Ve
 17.	Select **Specific reviewers**. Select **Self Review**.
 	
 	![image 8](../images/VID-08.png)
+
+## Create lifecycle workflows
+
+In this section, we describe how to create joiner and leaver workflows and run workflows on demand.
+
+### Create joiner workflow
+
+To create a joiner workflow, follow these steps.
+1.	Sign in to the Microsoft Entra admin center with at least a Lifecycle Workflows Administrator role.
+2.	Go to **Identity governance > Lifecycle workflows > Create a workflow**.
+3.	For **Choose a workflow**, select **Onboard new hire employee**.
+
+![image 11](../images/LCW1.png)
+
+4.	For **Basics**, enter Onboard New hire employee – Finance for the workflow display name and description. Select **Next**.
+5.	For **Configure scope > Rule**, enter values for **Property, Operator, and Value**. Change the expression of the scope to only users where **Property > department** has a Value of Finance. Ensure that your test user populates **Property** with the Finance string so that it’s in the workflow scope
+
+![image 12](../images/LCW2.png)
+
+6.	On **Review tasks**, select **Add task** to add a task to the template. For this scenario, we add **Request user access package assignment.**
+7.	For **Basics**, select **Request user access package assignment**. Assign a name to this task (such as Assign Finance Access Package). Select a policy.
+8.	In **Configure**, select the access package that you previously created.
+9.	**Optional:** Add other joiner tasks as follows. For some of these tasks, ensure that important attributes such as **Manager** and **Email** are properly mapped to users as described in . [Automate employee onboarding tasks before their first day of work using Lifecycle Workflows APIs](https://learn.microsoft.com/en-us/graph/tutorial-lifecycle-workflows-onboard-custom-workflow?tabs=http#prerequisites). 
+
+	* Enable User Account
+	* Add user to groups or teams
+	 Send Welcome Email
+	* Generate TAP and Send Email 
+10.	Select **Enable Schedule.**
+
+![image 13](../images/LCW3.png)
+
+11.	Select **Review + create.**
+
+### Create leaver workflow (Optional)
+
+To create a leaver workflow, follow these steps.
+
+1.	Sign in to the Microsoft Entra admin center with at least a Lifecycle Workflows Administrator role.
+2.	Go to **Identity governance > Lifecycle workflows > Create a workflow.**
+3.	On **Choose a workflow**, select **Offboard an employee.**
+
+![image 14](../images/LCW4.png)
+
+4.	On **Basics**, enter Offboard an employee – Finance as display name and description for the workflow. Select **Next.**
+5.	On **Configure scope > Rule**, enter values for **Property, Operator**, and **Value**. Change the expression of the scope to only users where Property > department has a **Value** of **Finance**. Ensure that your test user populates **Property** with the Finance string so that it’s in the workflow scope.
+
+![image 15](../images/LCW5.png)
+
+6.	On **Review tasks**, select **Add task** to add a task to the template. For this scenario we add **Request user access package assignment.**
+7.	**Optional:** Add other leaver tasks such as:
+	* Disable User Account
+	* Remove user from all groups
+	* Remove user from all Teams 
+8.	Toggle on **Enable schedule.**
+
+![image 16](../images/LCW6.png)
+
+**Note:** Lifecycle workflows run automatically based on defined triggers that combine time-based attributes and an offset value. For example, if the attribute is **employeeHireDate** and offsetInDays is -1, then the workflow should trigger one day before the employee hire date. The value can range between -180 and 180 days. The values **employeeHireDate** and **employeeLeaveDateTime** must be set within Microsoft Entra ID for users. [How to synchronize attributes for Lifecycle workflows](https://learn.microsoft.com/en-us/entra/id-governance/how-to-lifecycle-workflow-sync-attributes) provides more information on attributes and processes.
+
+### Run joiner workflow on demand
+
+To test this scenario without waiting for the automated schedule, run on-demand lifecycle workflows.
+1.	Initiate the previously created joiner workflow.
+2.	Sign in to the Microsoft Entra admin center with at least a Lifecycle Workflows Administrator role.
+3.	Go to **Identity governance > Lifecycle workflows > Workflows.**
+4.	On **Workflow**, select Onboard New hire employee – Finance that you previously created.
+5.	Select **Run on-demand.**
+6.	On **Select users**, select **Add users.**
+7.	On **Add users**, select the users for which you want to run the on-demand workflow.
+8.	Select **Add.**
+9.	Confirm your choices. Select **Run workflow.**
+10.	Select **Workflow history** to verify task status.
+
+![image 17](../images/LCW7.png)
+
+11.	After all tasks complete, verify that the user has access to the applications that you selected in the access package. This completes the joiner scenario for the user to access necessary apps on day one.
 
 ## Create sign-in risk-based CA policy
 

@@ -19,8 +19,9 @@ title: Success Criteria
 
 | Scenario / Phase                                       | Task / Features                         | Success Criteria                                                                   |
 |--------------------------------------------------------|-----------------------------------------|------------------------------------------------------------------------------------|
-| **Enhanced workforce and guest user lifecycle**        | Configure pre-requisites                | Microsoft Entra Verified ID , Add trusted orgs , create catalog                    |
+| **Streamline employee and guest onboarding**           | Configure pre-requisites                | Microsoft Entra Verified ID , Add trusted orgs , create catalog                    |
 |                                                        | Create Access Packages                  | Create test Access packages                                                        |
+|                                                        | Create Lifecycle Workflows              | Create joiner and leaver(optional) workflow and Run on-demand                      |
 |                                                        | Create sign-in risk-based CA policy     | Create risk based policy                                                           |
 |                                                        | Request access package                  | End user request access package                                                    |
 | **Secure and govern access to all apps and resources** | Configure Global Access                 | Install Client, Setup connector server, Create security group                      |

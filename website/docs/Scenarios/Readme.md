@@ -18,6 +18,6 @@ Explore our real-life scenarios that articulate the value of Microsoft Entra Sui
 
 ### Microsoft Entra Suite Scenarios
 
-- [Enhanced workforce and guest user lifecycle](./Scenario1.md)
+- [Streamline employee and guest onboarding](./Scenario1.md)
 - [Secure and govern access to all apps and resources](./Scenario2.md)
 - [Govern Internet Access based on business needs](./Scenario3.md)
