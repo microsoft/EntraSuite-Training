@@ -12,7 +12,7 @@ Discover our resources to guide you through the seamless integration of products
 | **1** | **Getting started**                        | **Resource Links** |
 |---|------------------------------------------------|--------------------|
 |   | Pitch deck / Introducing Microsoft Entra Suite | [Microsoft Entra Suite pitch deck](https://livesend.microsoft.com/i/H2hvHYolpt9tohTvCXlMsc___ICFSohdoskrRXvkV5N5xyrbr9ostp1wSRSnwJZascvN481C___P86RyEkT6eH6QhPLUSSIGNyxIhlKVpJyNE7Tm4vaxT7jHVPLUSSIGNbnjIaQJzgecLUSrv___)   |
-|   | Microsoft Entra Suite - L200 deck              | [Microsoft Entra Suite - Deep Dive deck](https://livesend.microsoft.com/i/H2hvHYolpt9tohTvCXlMsc___ICFSohdoskrRXvkV5N5xyrbr9ostp1wSRSnwJZascvN481C___P86RyEkT6eH6QhPLUSSIGNyxIhlKVpJyNE7Tm4vaxT7jHVPLUSSIGNbnjIaQJzgecLUSrv___)   |
+|   | Microsoft Entra Suite - L200 deck              | [Microsoft Entra Suite - Deep Dive deck](https://livesend.microsoft.com/i/H2hvHYolpt9tohTvCXlMsc___ICFSohdoskrRXvkV5N5wFsPBqBewI25fQ64hIEVQ1YxtqbZ___POTXG9Cr9HI58HXtwzl___lckpPI46ntO___g9J59ldfgx30MVX52yYPiUBSl)   |
 |   | Partner-ready FAQ                              |  [Partner FAQ](https://livesend.microsoft.com/i/H2hvHYolpt9tohTvCXlMsc___ICFSohdoskrRXvkV5N5xaL6pz7NrsUkfS18ywUabtlisWW6fnesCnUd80CVQKohLLG3nNfIqrlJa9jNJPLUSSIGNWkKZPLUSSIGNce9hQC9Xnbp4OXzvho4)       |
 | **2** | **Entra POC in a box**                     |                |
 |   | SSE                                            | [SSE POC in a box](https://microsoft.github.io/GlobalSecureAccess/)                              |
