@@ -3,6 +3,49 @@ sidebar_position: 8
 title: Service Partners resources
 ---
 
+# 📹 Entra Suite Technical Training for Microsoft Partners
+
+This recent Entra Suite Technical Training was designed to enhance the knowledge and skills of Microsoft partners interested in effectively delivering Entra Suite services. Held virtually over two days, the training covered a wide range of topics, including an overview of the Entra Suite, detailed scenarios, and deep dives into Entra ID Governance and Global Secure Access. The sessions were led by Microsoft experts who provided practical guidance on deploying and utilizing these solutions.
+
+If you could not attend the live sessions or for those looking to revisit the content, we're sharing the recordings that contain public content. From foundational overviews to advanced deployment steps, the training sessions are structured to provide a comprehensive understanding of the Entra Suite, making them ideal for both new and experienced partners.
+
+<table border="1">
+  <tr>
+    <th></th>
+    <th>What is covered?</th>
+    <th>Click to watch</th>
+  </tr>
+  <tr>
+    <td rowspan="4">Day 1</td>
+    <td>Session 1: Welcome & Training Overview (10 mins)</td>
+    <td rowspan="4"><a href="https://aka.ms/EntraSuitePartnerTechnicalTrainingDay1">Watch Day 1 Recording</a></td>
+  </tr>
+  <tr>
+    <td>Session 2: Entra Suite Overview (30 mins)</td>
+  </tr>
+  <tr>
+    <td>Session 3: Entra Suite Scenarios (50 mins)</td>
+  </tr>
+  <tr>
+    <td>Session 4: Entra ID Governance Deep Dive (includes Entra Verified ID) (120 mins)</td>
+  </tr>
+  <tr>
+    <td rowspan="4">Day 2</td>
+    <td>Session 5: Microsoft's Security Service Edge (SSE) solution overview (20 mins)</td>
+    <td rowspan="4"><a href="https://aka.ms/EntraSuitePartnerTechnicalTrainingDay2">Watch Day 2 Recording</a></td>
+  </tr>
+  <tr>
+    <td>Session 6: Microsoft Entra Private Access Deep Dive (100 minutes)</td>
+  </tr>
+  <tr>
+    <td>Session 7: Microsoft Entra Internet Access Deep Dive (40 minutes)</td>
+  </tr>
+  <tr>
+    <td>Session 8: Entra Suite Offerings creation guidance, PoC-in-a-box and go-do's (30 mins)</td>
+  </tr>
+</table>
+
+
 # 🤝 Service Partners resources
 
 Discover our resources to guide you through the seamless integration of products within the Entra Suite
