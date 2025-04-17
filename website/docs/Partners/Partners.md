@@ -9,6 +9,11 @@ This recent Entra Suite Technical Training was designed to enhance the knowledge
 
 If you could not attend the live sessions or for those looking to revisit the content, we're sharing the recordings that contain public content. From foundational overviews to advanced deployment steps, the training sessions are structured to provide a comprehensive understanding of the Entra Suite, making them ideal for both new and experienced partners.
 
+
+All of the **Power Point decks** for the recorded training below can be found here: **[PPTs - Entra Suite Partner Technical Training](https://livesend.microsoft.com/i/5MXuLrGEvgEn4I___qPLUSSIGNmxcu5K8___AywrC9RUFPIJwzwNT0qSLLEB4___Ai1lMaWG80P4TMGGVImthkANsmueA1dWB6bS0dPLUSSIGNlnal0DAE8ujNtfpMPnyyJJUqyQS4viR6A1___4Fa)** 
+
+
+
 <table border="1">
   <tr>
     <th></th>
