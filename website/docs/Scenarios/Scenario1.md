@@ -27,36 +27,62 @@ Contoso uses Microsoft Entra Identity Protection and Conditional Access (CA) to 
 ## Configure prerequisites
 
 To successfully deploy and test the solution, configure the prerequisites that we describe in this section.
-Configure Microsoft Entra Verified ID
+
+### Configure Microsoft Entra Verified ID
+
 For this scenario, complete these prerequisite steps to configure Microsoft Entra Verified ID with Quick setup (Preview):
 
-1.Register a custom domain (required for Quick setup) by following the steps in the [Add your custom domain](https://learn.microsoft.com/en-us/entra/fundamentals/add-custom-domain) article.
+1. Register a custom domain (required for Quick setup) by following the steps in the [Add your custom domain](https://learn.microsoft.com/en-us/entra/fundamentals/add-custom-domain) article.
+
 2.Sign in to the Microsoft Entra admin center with at least a Global Administrator role.
 
 * Select **Verified ID**.
 * Select **Setup**.
 * Select **Get started**
 
-3.If you have multiple domains registered for your Microsoft Entra tenant, select the one that you would like to use for Verified ID.
+3. If you have multiple domains registered for your Microsoft Entra tenant, select the one that you would like to use for Verified ID.
 
-4.After the setup process is complete, you see a default workplace credential available to edit and offer to employees of your tenant on their **My Account** page.
+4. After the setup process is complete, you see a default workplace credential available to edit and offer to employees of your tenant on their **My Account** page.
 
 	![imagen 1](../images/VID-01.png)
 	
-5.	Sign in to the test user�s **My Account** with their Microsoft Entra credentials. Select **Get my Verified ID** to issue a verified workplace credential
+5. Sign in to the test user�s **My Account** with their Microsoft Entra credentials. Select **Get my Verified ID** to issue a verified workplace credential
 	
 	![imagen 2](../images/VID-02.png)
 
+### Configure Microsoft Entra ID Protection
+
+1. Administrators who interact with ID Protection must have one or more of the following role assignments depending on the tasks they're performing. To follow the [Zero Trust principle of least privilege](https://learn.microsoft.com/en-us/security/zero-trust/), consider using [Privileged Identity Management (PIM)](https://learn.microsoft.com/en-us/entra/id-governance/privileged-identity-management/pim-configure) to just-in-time activate privileged role assignments.
+
+	1. Read ID Protection and Conditional Access policies and configurations
+
+		1. [Security Reader](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference#security-reader)
+		1. [Global Reader](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference#global-reader)
+
+	1. [Manage ID Protection]
+
+		1. [Security Operator](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference#security-operator)
+		1. [Security Administrator](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference#security-administrator)
+
+	1. Create or modify Conditional Access policies
+
+		1. [Conditional Access Administrator](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference#conditional-access-administrator)
+		1. [Security Administrator](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference#security-administrator)
+
+2. A test user who isn't an administrator to verify policies work as expected before deploying to real users. If you need to create a user, see [Quickstart: Add new users to Microsoft Entra ID](https://learn.microsoft.com/en-us/entra/fundamentals/how-to-create-delete-users)
+
+3. A group that the user is a member of. If you need to create a group, see [Create a group and add members in Microsoft Entra ID](https://learn.microsoft.com/en-us/entra/fundamentals/how-to-manage-groups).
 	
 ## Add trusted external organization (B2B)
 Follow these prerequisite steps to add a trusted external organization (B2B) for the scenario.
 1.	Sign in to the Microsoft Entra admin center with at least a Security Administrator role.
 2.	Go to **Identity > External Identities > Cross-tenant access settings**. Select **Organizational settings**
 3.	Select **Add organization**.
-4.	Enter the organization�s full domain name (or tenant ID).
+4.	Enter the organization's full domain name (or tenant ID).
 5.	Select the organization in the search results. Select **Add**.
 6.	Confirm the new organization (that inherits its access settings from default settings) in **Organizational settings**.
-	![image 3] (../images/VID-03.png)
+	
+	![image 3](../images/VID-03.png)
 
 ## Create catalog
 Follow these prerequisite steps to create an Entitlement management catalog for the scenario.
@@ -200,6 +226,16 @@ To test this scenario without waiting for the automated schedule, run on-demand 
 
 11.	After all tasks complete, verify that the user has access to the applications that you selected in the access package. This completes the joiner scenario for the user to access necessary apps on day one.
 
+## Review Existing Entra ID Protection Reports
+
+![image 18](../images/id-protection-dash.png)
+
+It's important to review the ID Protection reports before deploying risk-based Conditional Access policies. This review gives an opportunity to investigate any existing suspicious behavior. You might choose to dismiss the risk or confirm these users as safe if you determine they aren't at risk
+
+- [Investigate risk detections](https://learn.microsoft.com/en-us/entra/id-protection/howto-identity-protection-investigate-risk)
+- [Remediate risks and unblock users](https://learn.microsoft.com/en-us/entra/id-protection/howto-identity-protection-remediate-unblock)
+- [Make bulk changes using Microsoft Graph PowerShell](https://learn.microsoft.com/en-us/entra/id-protection/howto-identity-protection-graph-api)
+
 ## Create sign-in risk-based CA policy
 
 1.	Sign in to the Microsoft Entra admin center with at least a Conditional Access (CA) Administrator role.
@@ -217,6 +253,16 @@ To test this scenario without waiting for the automated schedule, run on-demand 
 13.	Select **Grant access > Require multifactor authentication**.
 14.	For **Session**, select **Sign-in frequency**. Select **Every time**.
 15.	Confirm settings. Select **Enable policy**
+	- For more information visit the following article about [Configuring and enabling risk policies](https://learn.microsoft.com/en-us/entra/id-protection/howto-identity-protection-configure-risk-policies)
+16. *Optional* ID Protection sends risk signals to Conditional Access, to make decisions and enforce organization policies. These policies might require users perform multifactor authentication or secure password change. Consider the following:
+	- Policy exclusions
+		- [Emergency access or break-glass](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/security-emergency-access) accounts to prevent lockout due to policy misconfiguration. In the unlikely scenario all administrators are locked out, your emergency-access administrative account can be used to log in and take steps to recover access.
+		- Service accounts and Service principals, such as the Microsoft Entra Connect Sync Account. Service accounts are non-interactive accounts that aren't tied to any particular user. They're normally used by back-end services allowing programmatic access to applications, but are also used to sign in to systems for administrative purposes. Calls made by service principals won't be blocked by Conditional Access policies scoped to users. Use Conditional Access for workload identities to define policies targeting service principals.
+			- If your organization has these accounts in use in scripts or code, consider replacing them with [managed identities](https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview).
+	- Multifactor Authentication
+		- For users to self-remediate risk though, they must register for [Microsoft Entra multifactor authentication](https://learn.microsoft.com/en-us/entra/identity/authentication/howto-mfa-getstarted) before they become risky.
+	- Known network locations
+		- It's important to configure [named locations in Conditional Access](https://learn.microsoft.com/en-us/entra/identity/conditional-access/concept-assignment-network#how-are-these-locations-defined) and add your VPN ranges to [Defender for Cloud Apps](https://learn.microsoft.com/en-us/defender-cloud-apps/ip-tags#create-an-ip-address-range). Sign-ins from named locations that are marked as trusted or known, improve the accuracy of ID Protection risk calculations. These sign-ins lower a user's risk when they authenticate from a location marked as trusted or known. This practice reduces false positives for some detections in your environment.
 	
 	![image 9](../images/VID-09.png) 
 
@@ -228,27 +274,19 @@ After you configure an access package with a Verified ID requirement, end-users 
 	
 	![image 10](../images/VID-10.png)
 
-5.	After you share your credentials, continue with the approval workflow.
-6.	**Optional**: Simulate user risk by following these instructions: [Simulating risk detections in Microsoft Entra ID Protection](https://learn.microsoft.com/en-us/entra/id-protection/howto-identity-protection-simulate-risk). You may need to try multiple times to raise the user risk to medium or high.
-7.	Try accessing the application that you previously created for the scenario to confirm blocked access. You may need to wait up to one hour for block enforcement.
-8.	Validate that access is blocked by the Conditional Access (CA) policy that you created earlier using sign-in logs. Open non-interactive sign in logs from the ZTNA Network Access Client � Private application. View logs from the Private Access application name that you previously created as the **Resource name**.
-
+4.	After you share your credentials, continue with the approval workflow.
+5.	**Optional**: Simulate user risk by following these instructions: [Simulating risk detections in Microsoft Entra ID Protection](https://learn.microsoft.com/en-us/entra/id-protection/howto-identity-protection-simulate-risk). You may need to try multiple times to raise the user risk to medium or high.
+6.	Try accessing the application that you previously created for the scenario to confirm blocked access. You may need to wait up to one hour for block enforcement.
+7.	Validate that access is blocked by the Conditional Access (CA) policy that you created earlier using sign-in logs. Open non-interactive sign in logs from the ZTNA Network Access Client Private application. View logs from the Private Access application name that you previously created as the **Resource name**.
+8. [Enable email notifications](https://learn.microsoft.com/en-us/entra/id-protection/howto-identity-protection-configure-notifications) so you can respond when a user is flagged as a risk. These notifications allow you to start investigating immediately. You can also set up weekly digest emails giving you an overview of risk for that week.
+9. The [Impact analysis of risk-based access policies workbook](https://learn.microsoft.com/en-us/entra/id-protection/workbook-risk-based-policy-impact) helps administrators understand user impact before creating risk-based Conditional Access policies.
+The [ID Protection workbook](https://learn.microsoft.com/en-us/entra/identity/monitoring-health/workbook-risk-analysis) can help monitor and look for patterns in your tenant. Monitor this workbook for trends and also Conditional Access Report Only mode results to see if there are any changes that need to be made, for example, additions to named locations.
+You can also use the ID Protection APIs to [export risk information](https://learn.microsoft.com/en-us/entra/id-protection/howto-export-risk-data) to other tools, so your security team can monitor and alert on risk events.
  
+ ## Resources
  
- ## Resources 
 * [Microsoft Entra Verified ID | Microsoft Security](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-verified-id) 
 * [Plan your Microsoft Entra Verified ID verification solution](https://learn.microsoft.com/en-us/entra/verified-id/plan-verification-solution) 
 * [What is Microsoft Entra ID Protection?](https://learn.microsoft.com/en-us/entra/id-protection/overview-identity-protection) 
 * [Microsoft Entra ID Governance](https://learn.microsoft.com/en-us/entra/id-governance/identity-governance-overview)
 * [Plan a Microsoft Entra Conditional Access deployment](https://learn.microsoft.com/en-us/entra/identity/conditional-access/plan-conditional-access)
-
-
-
-
- 
-
-
-
-
-
-
