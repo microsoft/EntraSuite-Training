@@ -254,7 +254,10 @@ It's important to review the ID Protection reports before deploying risk-based C
 14.	For **Session**, select **Sign-in frequency**. Select **Every time**.
 15.	Confirm settings. Select **Enable policy**
 	- For more information visit the following article about [Configuring and enabling risk policies](https://learn.microsoft.com/en-us/entra/id-protection/howto-identity-protection-configure-risk-policies)
-16. *Optional* ID Protection sends risk signals to Conditional Access, to make decisions and enforce organization policies. These policies might require users perform multifactor authentication or secure password change. Consider the following:
+
+	![image 9](../images/VID-09.png) 
+
+16. **Optional:** ID Protection sends risk signals to Conditional Access, to make decisions and enforce organization policies. These policies might require users perform multifactor authentication or secure password change. Consider the following:
 	- Policy exclusions
 		- [Emergency access or break-glass](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/security-emergency-access) accounts to prevent lockout due to policy misconfiguration. In the unlikely scenario all administrators are locked out, your emergency-access administrative account can be used to log in and take steps to recover access.
 		- Service accounts and Service principals, such as the Microsoft Entra Connect Sync Account. Service accounts are non-interactive accounts that aren't tied to any particular user. They're normally used by back-end services allowing programmatic access to applications, but are also used to sign in to systems for administrative purposes. Calls made by service principals won't be blocked by Conditional Access policies scoped to users. Use Conditional Access for workload identities to define policies targeting service principals.
@@ -263,8 +266,6 @@ It's important to review the ID Protection reports before deploying risk-based C
 		- For users to self-remediate risk though, they must register for [Microsoft Entra multifactor authentication](https://learn.microsoft.com/en-us/entra/identity/authentication/howto-mfa-getstarted) before they become risky.
 	- Known network locations
 		- It's important to configure [named locations in Conditional Access](https://learn.microsoft.com/en-us/entra/identity/conditional-access/concept-assignment-network#how-are-these-locations-defined) and add your VPN ranges to [Defender for Cloud Apps](https://learn.microsoft.com/en-us/defender-cloud-apps/ip-tags#create-an-ip-address-range). Sign-ins from named locations that are marked as trusted or known, improve the accuracy of ID Protection risk calculations. These sign-ins lower a user's risk when they authenticate from a location marked as trusted or known. This practice reduces false positives for some detections in your environment.
-	
-	![image 9](../images/VID-09.png) 
 
 ## Request access package
 After you configure an access package with a Verified ID requirement, end-users who are within the scope of the policy can request access in their **My Access** portal. While reviewing requests for approval, approvers can see the claims of the verified credentials that requestors present.
@@ -284,7 +285,7 @@ The [ID Protection workbook](https://learn.microsoft.com/en-us/entra/identity/mo
 You can also use the ID Protection APIs to [export risk information](https://learn.microsoft.com/en-us/entra/id-protection/howto-export-risk-data) to other tools, so your security team can monitor and alert on risk events.
  
  ## Resources
- 
+
 * [Microsoft Entra Verified ID | Microsoft Security](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-verified-id) 
 * [Plan your Microsoft Entra Verified ID verification solution](https://learn.microsoft.com/en-us/entra/verified-id/plan-verification-solution) 
 * [What is Microsoft Entra ID Protection?](https://learn.microsoft.com/en-us/entra/id-protection/overview-identity-protection) 
