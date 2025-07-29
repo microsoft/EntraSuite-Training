@@ -6,8 +6,10 @@ Agentic AI can transform the onboarding process by enabling intelligent user pro
 
 ## 💡 Ideas To Explore
 
-| Idea | Suggested Labels |
-|------|------------------|
+> ℹ️ **Note:** For a full list of labels and what each one means, visit our ../Readme.md#-how-to-contribute.
+
+| Idea | Status |
+|------|--------|
 | AI-driven welcome experiences tailored to the user’s department, location, and role. | `idea`, `enhancement`, `status:needs review` |
 | Integration with HR systems to proactively prepare access and equipment before the user’s start date. | `proposal`, `status:in progress`, `review:pending` |
 | Predictive analytics to identify potential onboarding bottlenecks and suggest remediation steps. | `idea`, `status:backlog`, `help wanted` |

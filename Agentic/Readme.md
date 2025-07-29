@@ -38,6 +38,8 @@ Use GitHub Issues to:
 - Upvote existing ones using 👍 reactions
 - Track progress and implementation updates  
 - Apply labels to help us organize and prioritize:
+
+🏷️ **Available Labels**  
   - `enhancement` – improvements to existing features  
   - `idea` – early-stage or exploratory suggestions  
   - `proposal` – well-formed plans or initiatives  
