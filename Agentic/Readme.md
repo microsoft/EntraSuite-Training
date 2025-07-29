@@ -21,24 +21,30 @@ Agentic AI introduces autonomous, goal-driven intelligence to streamline identit
 - TBD
 ---
 
-## 🤝 How to Contribute
+## 🤝 How to Contribute  
 
 We welcome your ideas, feedback, and collaboration!
 
-### 💬 Use GitHub Discussions
+💡 **Use GitHub Issues**
+Share your thoughts on Agentic AI applications.  
+Ask questions, propose new use cases, or give feedback.  
+Engage with others by commenting and reacting to issues.
 
-- Share your thoughts on Agentic AI applications.
-- Ask questions or propose new use cases.
-- Engage with others in the community.
+🧠 **Suggest or Upvote Ideas**  
+Visit our [Idea Bank]—a curated list of deployment concepts.  
+Use GitHub Issues to:  
 
-### 🧠 Suggest or Upvote Ideas
+- Submit new ideas or feature requests
+- Upvote existing ones using 👍 reactions
+- Track progress and implementation updates  
+- Apply labels to help us organize and prioritize:
+  - `enhancement` – improvements to existing features  
+  - `idea` – early-stage or exploratory suggestions  
+  - `proposal` – well-formed plans or initiatives  
+  - `question` – general inquiries or clarifications  
+  - `help wanted` – requests for collaboration or support  
+  - `discussion` – open-ended topics or community input  
+  - `feedback` – user experience or usability insights  
+  - `bug` – report issues or unexpected behavior  
 
-- Visit our [Idea Bank] a curated list of deployment concepts.
-- Use GitHub Issues to:
-  - Submit new ideas.
-  - Upvote existing ones.
-  - Track progress on implementation.
-
-Let’s build the future of identity governance and secure access—together.
-
----
+Let’s build the future of Entra Suite with Agentic scenarios!
