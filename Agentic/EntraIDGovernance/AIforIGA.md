@@ -2,7 +2,7 @@
 
 The Entra ID Governance lifecycle framework encompasses key stages in managing digital identities. For clarity, this framework includes phases such as onboarding, access assignment, self-service requests, privileged access management, and access attestation. Agentic AI refers to autonomous, goal-driven artificial intelligence capable of independent decision-making and proactive task execution. Utilizing this lifecycle framework, identify and brainstorm how agentic AI can enable and accelerate deployment of Entra ID Governance capabilities, as well as contribute to cross-Entra Suite scenarios for each phase.
 
-![EIG](.../website/docs/images/EIG.png)
+![EIG](https://github.com/microsoft/EntraSuite-Training/blob/main/website/docs/images/EIG.png)
 
 ## Phases
 

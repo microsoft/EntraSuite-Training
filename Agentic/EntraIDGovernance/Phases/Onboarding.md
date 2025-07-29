@@ -6,15 +6,15 @@ Agentic AI can transform the onboarding process by enabling intelligent user pro
 
 ## 💡 Ideas To Explore
 
-> ℹ️ **Note:** For a full list of labels and what each one means, visit our ../Readme.md#-how-to-contribute.
+ > ℹ️ **Note:** For a full list of labels and what each one means, visit our [How to Contribute](https://github.com/microsoft/EntraSuite-Training/blob/main/Agentic/Readme.md#-how-to-contribute)
 
-| Idea | Status |
-|------|--------|
-| AI-driven welcome experiences tailored to the user’s department, location, and role. | `idea`, `enhancement`, `status:needs review` |
-| Integration with HR systems to proactively prepare access and equipment before the user’s start date. | `proposal`, `status:in progress`, `review:pending` |
-| Predictive analytics to identify potential onboarding bottlenecks and suggest remediation steps. | `idea`, `status:backlog`, `help wanted` |
-| Personalized onboarding checklists and interactive tutorials powered by conversational AI. | `enhancement`, `status:needs review`, `feedback` |
-| Pre-Deployment HR Data Impact Analysis – discover existing identities and data attributes to assess impact of bulk changes. | `proposal`, `discussion`, `status:researching` |
+| Idea | Label / Status |
+|------|----------------|
+| AI-driven welcome experiences tailored to the user’s department, location, and role. | `idea`, `feedback` |
+| Integration with HR systems to proactively prepare access and equipment before the user’s start date. | `idea`, `feedback` |
+| Predictive analytics to identify potential onboarding bottlenecks and suggest remediation steps. | `idea`, `feedback` |
+| Personalized onboarding checklists and interactive tutorials powered by conversational AI. | `idea`, `feedback` |
+| Pre-Deployment HR Data Impact Analysis – discover existing identities and data attributes to assess impact of bulk changes. | `idea`, `feedback` |
 
 ---
 
