@@ -20,7 +20,7 @@ The Entra Suite includes five deeply integrated products:
 - ID Protection to make access decisions based on real-time risk assessment
 - Verified ID Premium to enable real-time and privacy respecting identity verification
 
-## <center>  👉 [Start your free 90-day trial today!](https://aka.ms/EntraSuiteTrial) 👈 </center>
+## <center>  👉 [Start your free trial today!](https://aka.ms/EntraSuiteTrial) 👈 </center>
 
 ![image](./images/EntraSuiteProducts.png) 
 
