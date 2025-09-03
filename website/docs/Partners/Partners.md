@@ -59,9 +59,9 @@ Discover our resources to guide you through the seamless integration of products
 
 | **1** | **Getting started**                        | **Resource Links** |
 |---|------------------------------------------------|--------------------|
-|   | Pitch deck / Introducing Microsoft Entra Suite | [Microsoft Entra Suite pitch deck](https://livesend.microsoft.com/i/H2hvHYolpt9tohTvCXlMsc___ICFSohdoskrRXvkV5N5xyrbr9ostp1wSRSnwJZascvN481C___P86RyEkT6eH6QhPLUSSIGNyxIhlKVpJyNE7Tm4vaxT7jHVPLUSSIGNbnjIaQJzgecLUSrv___)   |
-|   | Microsoft Entra Suite - L200 deck              | [Microsoft Entra Suite - Deep Dive deck](https://livesend.microsoft.com/i/H2hvHYolpt9tohTvCXlMsc___ICFSohdoskrRXvkV5N5wFsPBqBewI25fQ64hIEVQ1YxtqbZ___POTXG9Cr9HI58HXtwzl___lckpPI46ntO___g9J59ldfgx30MVX52yYPiUBSl)   |
-|   | Partner-ready FAQ                              |  [Partner FAQ](https://livesend.microsoft.com/i/H2hvHYolpt9tohTvCXlMsc___ICFSohdoskrRXvkV5N5yKbwyauBfKIcVZ___IPLUSSIGNUjG95C___isWRetDXl6k7AMKObSl3UX8en77igRHuenqU0nkMCkKO2f0SjfW07yYLL0dJ5Q)       |
+|   | Pitch deck / Introducing Microsoft Entra Suite | [Microsoft Entra Suite pitch deck](https://livesend.microsoft.com/i/5MXuLrGEvgEn4I___qPLUSSIGNmxcu5K8___AywrC9RUFPIJwzwNT2vFKdtZnd21y1h8Jt___dGBznFT___kTCkzQVohJ6MKXrkUKNb9pEz5l5x___SPLUSSIGNbIz4GrzeJEbWoo___50YMx1vbhFibWH)   |
+|   | Microsoft Entra Suite - L200 deck              | [Microsoft Entra Suite - Deep Dive deck](https://livesend.microsoft.com/i/5MXuLrGEvgEn4I___qPLUSSIGNmxcu5K8___AywrC9RUFPIJwzwNT2nWJYZ785td8UOI___iS8J47TlFUlFBW___4JlCSPLUSSIGNUEjSRbx69nVLYUeZiydMwMXC7MbmSfVao3nNyrL9PLUSSIGNxRERqSuI)   |
+|   | Partner-ready FAQ                              |  [Partner FAQ](https://livesend.microsoft.com/i/5MXuLrGEvgEn4I___qPLUSSIGNmxcu5K8___AywrC9RUFPIJwzwNT36xBRgQOQGZaso0XLEgYOh86yiN4a41RJIZ1c5SVzMLUWIXrlF24___dirYVGdrjDXJfSgFBGd4DgiI9lwkZAUft)       |
 | **2** | **Entra POC in a box**                     |                |
 |   | SSE                                            | [SSE POC in a box](https://microsoft.github.io/GlobalSecureAccess/)                              |
 |   | ID Governance                                  | [ID Governance POC in a box](https://microsoft.github.io/EntraIDGovernance-Training/)                             |
