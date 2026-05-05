@@ -10,7 +10,9 @@ This recent Entra Suite Technical Training was designed to enhance the knowledge
 If you could not attend the live sessions or for those looking to revisit the content, we're sharing the recordings that contain public content. From foundational overviews to advanced deployment steps, the training sessions are structured to provide a comprehensive understanding of the Entra Suite, making them ideal for both new and experienced partners.
 
 
-All of the **Power Point decks** for the recorded training below can be found here: **[PPTs - Entra Suite Partner Technical Training](https://livesend.microsoft.com/i/5MXuLrGEvgEn4I___qPLUSSIGNmxcu5K8___AywrC9RUFPIJwzwNT0qSLLEB4___Ai1lMaWG80P4TMGGVImthkANsmueA1dWB6bS0dPLUSSIGNlnal0DAE8ujNtfpMPnyyJJUqyQS4viR6A1___4Fa)** 
+All of the **Power Point decks** for the recorded training below can be found here: 
+
+**[PPTs - Entra Suite Partner Technical Training](https://livesend.microsoft.com/i/5MXuLrGEvgEn4I___qPLUSSIGNmxcu5K8___AywrC9RUFPIJwzwNT2Egiwjtjvo1NWmVMOhbj9y2TeeAS2ygmUdqCz27NP5G___PLUSSIGNucGKkAs9MNPLUSSIGNaUEWU48Cum3xqTPLUSSIGNucUZdF15TCgCSy5)** 
 
 
 
@@ -59,21 +61,26 @@ Discover our resources to guide you through the seamless integration of products
 
 | **1** | **Getting started**                        | **Resource Links** |
 |---|------------------------------------------------|--------------------|
-|   | Pitch deck / Introducing Microsoft Entra Suite | [Microsoft Entra Suite pitch deck](https://livesend.microsoft.com/i/5MXuLrGEvgEn4I___qPLUSSIGNmxcu5K8___AywrC9RUFPIJwzwNT2vFKdtZnd21y1h8Jt___dGBznFT___kTCkzQVohJ6MKXrkUKNb9pEz5l5x___SPLUSSIGNbIz4GrzeJEbWoo___50YMx1vbhFibWH)   |
-|   | Microsoft Entra Suite - L200 deck              | [Microsoft Entra Suite - Deep Dive deck](https://livesend.microsoft.com/i/5MXuLrGEvgEn4I___qPLUSSIGNmxcu5K8___AywrC9RUFPIJwzwNT2nWJYZ785td8UOI___iS8J47TlFUlFBW___4JlCSPLUSSIGNUEjSRbx69nVLYUeZiydMwMXC7MbmSfVao3nNyrL9PLUSSIGNxRERqSuI)   |
-|   | Partner-ready FAQ                              |  [Partner FAQ](https://livesend.microsoft.com/i/5MXuLrGEvgEn4I___qPLUSSIGNmxcu5K8___AywrC9RUFPIJwzwNT36xBRgQOQGZaso0XLEgYOh86yiN4a41RJIZ1c5SVzMLUWIXrlF24___dirYVGdrjDXJfSgFBGd4DgiI9lwkZAUft)       |
-| **2** | **Entra POC in a box**                     |                |
-|   | SSE                                            | [SSE POC in a box](https://microsoft.github.io/GlobalSecureAccess/)                              |
+|   | Pitch deck / Introducing Microsoft Entra Suite | [Microsoft Entra Suite pitch deck](https://livesend.microsoft.com/i/5MXuLrGEvgEn4I___qPLUSSIGNmxcu5K8___AywrC9RUFPIJwzwNT3gxfGtfWaHVOeY___wPSfqHEBFjvixPEqkZ1FSVkQfUzpHnTiEzgzviivuLKcuEDq1St___UKnAVSTrHmwrAoMdSDD)   |
+|   | Microsoft Entra Suite FAQ For Partners            | [Microsoft Entra Suite - FAQ for Partners](https://livesend.microsoft.com/i/5MXuLrGEvgEn4I___qPLUSSIGNmxcu5K8___AywrC9RUFPIJwzwNT36xBRgQOQGZaso0XLEgYOhnIZEFHXETrlGohYfBe___W4CWGEq1BIxJyRAkfVY6QlwOZmvx1___kytdIo4___6DovZKm)   |
+
+| **2** | **Demos**                                  |                |
+|---|------------------------------------------------|--------------------|
+|   | Entra Suite Demo Guide                 | [Demo Guide](https://livesend.microsoft.com/i/5MXuLrGEvgEn4I___qPLUSSIGNmxcu5K8___AywrC9RUFPIJwzwNT2vFKdtZnd21y1h8Jt___dGBzWSsLxlfqYstSDDNPvCOuUg9VWvl2q9d___FlbhEjrh2H5dDYi0RMsfdMYJHbBlTAV4)         |
+|| Entra Suite Showcase Scenarios | [Entra Suite Showcase Scenarios Guide](https://livesend.microsoft.com/i/5MXuLrGEvgEn4I___qPLUSSIGNmxcu5K8___AywrC9RUFPIJwzwNT3gxfGtfWaHVOeY___wPSfqHEtdjltzGSpIng6NApIpmIAK80rGoBAPLUSSIGN5LztgtMmT8skqg2F___QHEzlHX1amODJPLUSSIGNASh)| 
+|   | Demo - Enhanced workforce & guests lifecycle   | [Enhanced workforce and guest user lifecycle](https://livesend.microsoft.com/i/5MXuLrGEvgEn4I___qPLUSSIGNmxcu5K8___AywrC9RUFPIJwzwNT0qSLLEB4___Ai1lMaWG80P4TPLUSSIGNtaUqfLyBtbAlAT9vlVtWmX2yYHJTnGu7yEzPLUSSIGNoAEArCZoirjPLUSSIGNMd3rrt3nPSeFUMr)               |
+|   | Demo - Secure and govern access to all apps    | [Secure and govern access to all apps and resources](https://livesend.microsoft.com/i/5MXuLrGEvgEn4I___qPLUSSIGNmxcu5K8___AywrC9RUFPIJwzwNT3kg84sk0Cv9O5noK9TlAjMPLUSSIGNgUm3m3FF2njQGFIaUZ5Pgg3QOgE4dbdydDPLUSSIGNw83Qq1xufxNymyLhNPVhbyKQlOWc)               |
+|   | Demo - Govern internet access based on business needs    | [Govern Internet Access based on business needs](https://livesend.microsoft.com/i/5MXuLrGEvgEn4I___qPLUSSIGNmxcu5K8___AywrC9RUFPIJwzwNT0yweCfIR3TC8AY1f4tjmRxPj6V2NM1MhK___1SgSQFDS9uueE0CQzmXHzTi___uMp7kKiPYwhNtoPLUSSIGNs9QBlLMN1WADe)  
+
+| **3** | **Entra POC in a box**                     |                |
+|---|------------------------------------------------|--------------------|
+|   | SSE                                            | [SSE POC in a box](https://microsoft.github.io/GlobalSecureAccess/) and [Internet Access Demos](https://aka.ms/gsademos)                              |
 |   | ID Governance                                  | [ID Governance POC in a box](https://microsoft.github.io/EntraIDGovernance-Training/)                             |
 |   | ID protection                                  | [Microsoft Entra Identity Protection POC Deck](../Assets/Entra_Suite_Microsoft_Identity_Protection_POC_in_a_Box.pptx)              |
 |   | Verified ID                                    | [Verified ID POC in a Box training](../Assets/Entra_VID_PoC_box_April%202025_External_Training.pptx) & [Webinar recording](https://www.linkedin.com/events/7307805628092100609/comments/)            |
-| **3** | **Demos**                                  | If downloaded, must unzip to use               |
-|   | Entra Suite Showcase Scenarios                 | [Deck to showcase 3 Demo scenarios](https://livesend.microsoft.com/i/5MXuLrGEvgEn4I___qPLUSSIGNmxcu5K8___AywrC9RUFPIJwzwNT3gxfGtfWaHVOeY___wPSfqHEN4cFkI0DN2gAwa4eM30D___vbeBpulnuVlQXwqRW6LsBiVnJNWc7L7bFKb8l8ZCE8R)         |
-|   | Demo - Enhanced workforce & guests lifecycle   | [Enhanced workforce and guest user lifecycle](https://livesend.microsoft.com/i/5MXuLrGEvgEn4I___qPLUSSIGNmxcu5K8___AywrC9RUFPIJwzwNT0qSLLEB4___Ai1lMaWG80P4TPLUSSIGNtaUqfLyBtbAlAT9vlVtWmX2yYHJTnGu7yEzPLUSSIGNoAEArCZoirjPLUSSIGNMd3rrt3nPSeFUMr)               |
-|   | Demo - Secure and govern access to all apps    | [Secure and govern access to all apps and resources](https://livesend.microsoft.com/i/5MXuLrGEvgEn4I___qPLUSSIGNmxcu5K8___AywrC9RUFPIJwzwNT3kg84sk0Cv9O5noK9TlAjMPLUSSIGNgUm3m3FF2njQGFIaUZ5Pgg3QOgE4dbdydDPLUSSIGNw83Qq1xufxNymyLhNPVhbyKQlOWc)               |
-|   | Demo - Govern internet access based on business needs    | [Govern Internet Access based on business needs](https://livesend.microsoft.com/i/5MXuLrGEvgEn4I___qPLUSSIGNmxcu5K8___AywrC9RUFPIJwzwNT0yweCfIR3TC8AY1f4tjmRxPj6V2NM1MhK___1SgSQFDS9uueE0CQzmXHzTi___uMp7kKiPYwhNtoPLUSSIGNs9QBlLMN1WADe)               |
+
 | **4** | **Product Deep Dive**                      |                |
-|   | Private Access                                 | [Private Access deep dive](https://livesend.microsoft.com/i/H2hvHYolpt9tohTvCXlMsc___ICFSohdoskrRXvkV5N5zM1O5ALJDaZbQtCaLbEkogpKyAGr0tg4kz27MAUW4JBLFYlyOo45nAAABHhsvx6ycpkq4jwVbBOIJ4d3TPLUSSIGNJ9Sj)         | 
-|   | ID Governance                                  | [Identity Governance deep dive](https://livesend.microsoft.com/i/H2hvHYolpt9tohTvCXlMsc___ICFSohdoskrRXvkV5N5y7yZM___bEjazfIPLUSSIGN4___VAJC6zPdRS3FPLUSSIGN1lQNrt0FPLMW2G___iWd8vXbBWDViDPLUSSIGNNy5FkOkfJ8EdMxpl1w2VOUwmHXm5)                |
-|   | ID Protection                                  |   [Identity Protection deep dive](https://learn.microsoft.com/en-us/entra/id-protection/overview-identity-protection)              |
+|---|------------------------------------------------|--------------------|
+|   | Private Access  & Internet Access L200                                | [Private Access & Internet Access deep dive](https://livesend.microsoft.com/i/5MXuLrGEvgEn4I___qPLUSSIGNmxcu5K8___AywrC9RUFPIJwzwNT2Egiwjtjvo1NWmVMOhbj9yQgfUZ7Js77Uk9zWnl7xC6CN0jacps6nSr5dLHLdFHKaAmXlk6QouVigvD9p3JOZO)         | 
+|   | ID Governance                                 | [ID Governance deep dive](https://livesend.microsoft.com/i/5MXuLrGEvgEn4I___qPLUSSIGNmxcu5K8___AywrC9RUFPIJwzwNT3nXtZnUUQPLUSSIGNLlz0Um5zQyqMtvRAfalTnMWRIsGSw976T2caB7puuB8BCHu1kgeVQRrKAC___1PSouPnHjojs4Zwgb)                |
 |   | Verified ID                                 |   [Verified ID deep dive](https://livesend.microsoft.com/i/5MXuLrGEvgEn4I___qPLUSSIGNmxcu5K8___AywrC9RUFPIJwzwNT36xBRgQOQGZaso0XLEgYOhCcQjKVzwfVNtPaO069vxj8xYL30SB0qt3p3nU8dwWNLNUtv___EY4gG9amG9dwy6st)              |
